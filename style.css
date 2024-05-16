@@ -1,14 +1,14 @@
-
 #page-container {
     position: relative;
     min-height: 100vh; /*makes sure page is atleast the height of the browser, regardless of content*/
-  }
+}
   
-  #content-wrap {
+#content-wrap {
     padding-bottom: 2.5rem;    /* Footer height */
-  }
-  
-  #footer {
+    position: absolute;
+}
+
+#footer {
     text-align: center;
     size: 50%;
     background-color: #6b808b;
