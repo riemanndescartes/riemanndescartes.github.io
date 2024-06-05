@@ -2,6 +2,9 @@
     position: relative;
     min-height: 100vh; /*makes sure page is atleast the height of the browser, regardless of content*/
 }
+p {
+    font-family: ui-rounded;
+}
   
 /*#content-wrap {
     padding-bottom: 2.5rem;     Footer height 
@@ -16,6 +19,7 @@
     bottom: 0;
     width: 100%;
     height: 2.5rem;            /* Footer height */
+    
     /*padding-left: auto;
     padding-right: auto;
     padding-top: 5px;
