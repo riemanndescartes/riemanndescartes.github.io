@@ -8,6 +8,10 @@ p {
 h1 {
     font-family: ui-rounded;
 }
+
+body {
+    background-color: rgb(214 207 180); 
+}
   
 /*#content-wrap {
     padding-bottom: 2.5rem;     Footer height 
