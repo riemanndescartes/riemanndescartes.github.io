@@ -18,8 +18,7 @@ p {
     text-align: center;
     size: 20px;
     color: #fcfdfc;
-    /*font-family: 'Shadows Into Light';*/
-    font-family: 'ui-rounded';
+    font-family: 'Shadows Into Light';
 }
 a {
     text-decoration: none;
