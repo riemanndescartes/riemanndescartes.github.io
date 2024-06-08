@@ -1,7 +1,12 @@
+body {
+    background-color: #d1eda1;
+}
+
 #page-container {
     position: relative;
     min-height: 100vh; /*makes sure page is atleast the height of the browser, regardless of content*/
 }
+
 p {
     font-family: 'ui-rounded';
 }
@@ -15,6 +20,9 @@ p {
     color: #fcfdfc;
     font-family: 'Shadows Into Light';
 }
+a {
+    text-decoration: none;
+}
 a.style:link, a.style:visited {
     color: #fcfdfc;
 }
@@ -25,10 +33,6 @@ a.style:active {
     color: #6d8a47;
 }
 
-body {
-    background-color: #D1EDA1;
-}
-  
 /*#content-wrap {
     padding-bottom: 2.5rem;     Footer height 
 }*/
