@@ -2,18 +2,26 @@
     position: relative;
     min-height: 100vh; /*makes sure page is atleast the height of the browser, regardless of content*/
 }
-p {
+/*p {
     font-family: ui-rounded;
 }
 h1 {
     font-family: ui-rounded;
-}
+}*/
 
 .menu {
     text-align: center;
     size: 20px;
-    /*color: #fcfdfc;*/
-    font-family: ui-rounded;
+    font-family: 'Shadows Into Light';
+}
+a.blog:link, a.blog:visited {
+    color: #fcfdfc;
+}
+a.blog:hover {
+    color: #b1cf86;
+}
+a.blog:active {
+    color: #6b808b;
 }
 
 body {
