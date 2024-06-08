@@ -9,6 +9,13 @@ h1 {
     font-family: ui-rounded;
 }
 
+.menu {
+    text-align: center;
+    size: 20px;
+    /*color: #fcfdfc;*/
+    font-family: ui-rounded;
+}
+
 body {
     background-color: rgb(214 207 180); 
 }
