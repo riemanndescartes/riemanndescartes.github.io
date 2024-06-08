@@ -12,9 +12,9 @@ body {
 p {
     font-family: ui-rounded;
 }
-/*h1 {
-    font-family: ui-rounded;
-}*/
+h1 {
+    size: 50px;
+}
 
 .menu {
     text-align: center;
