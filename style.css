@@ -12,15 +12,16 @@ h1 {
 .menu {
     text-align: center;
     size: 20px;
+    color: #fcfdfc;
     font-family: 'Shadows Into Light';
 }
-a.blog:link, a.blog:visited {
+a.style:link, a.style:visited {
     color: #fcfdfc;
 }
-a.blog:hover {
+a.style:hover {
     color: #b1cf86;
 }
-a.blog:active {
+a.style:active {
     color: #6b808b;
 }
 
