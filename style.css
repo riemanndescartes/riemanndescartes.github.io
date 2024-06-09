@@ -3,6 +3,12 @@ body {
     
 }
 
+.intromsg {
+    height: 100vh;
+    background: #f8e5bb;
+    box-sizing: border-box;
+}
+
 #page-container {
     position: relative;
     min-height: 100vh; /*makes sure page is atleast the height of the browser, regardless of content*/
