@@ -11,7 +11,8 @@ body {
 
 .intromsg {
     /*height: 100vh;*/
-    background: #f8e5bb;
+    /*background: #f8e5bb;*/
+    background-color: #2F4B4C;
     box-sizing: border-box;
     color: white;
 }
@@ -65,8 +66,9 @@ a.style:active {
 #footer {
     text-align: center;
     size: 50%;
-    /*background-color: #6b808b;*/
-    background-color: rgb(255 253 208);
+    background-color: #2F4B4C;
+    align-content: center;
+    /*background-color: rgb(255 253 208);*/
     font-family: 'Shadows Into Light';
     position: absolute;
     bottom: 0;
