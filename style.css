@@ -1,7 +1,5 @@
 body {
     background-color: #d1eda1;
-    margin: 0;
-    padding: 0;
     overflow-x: hidden;
     width: 100vw;
     height: 100vh;
@@ -30,8 +28,10 @@ h1 {
     background-color: #182C2B;
 }
 .menu {
+    margin: 0;
+    padding: 0;
     text-align: center;
-    size: 20px;
+    size: 2rem;
     color: #F1C1BD;
     font-family: 'Shadows Into Light';
 }
@@ -61,7 +61,7 @@ a.style:active {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 2.5rem;            /* Footer height */
+    /*height: 2.5rem;*/            /* Footer height */
     
     /*padding-left: auto;
     padding-right: auto;
