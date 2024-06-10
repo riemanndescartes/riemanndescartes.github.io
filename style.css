@@ -53,7 +53,7 @@ a.style:active {
     size: 50%;
     /*background-color: #6b808b;*/
     background-color: rgb(255 253 208);
-    /*font-family: 'Shadows Into Light';*/
+    font-family: 'Shadows Into Light';
     position: absolute;
     bottom: 0;
     width: 100%;
