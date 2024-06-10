@@ -5,7 +5,7 @@ body {
 }
 
 .intromsg {
-    height: 100vh;
+    /*height: 100vh;*/
     background: #f8e5bb;
     box-sizing: border-box;
     color: black;
