@@ -13,10 +13,11 @@ body {
     /*height: 100vh;*/
     background: #f8e5bb;
     box-sizing: border-box;
-    color: black;
+    color: white;
 }
 
 #page-container {
+    background-color: #2F4B4C;
     position: relative;
     min-height: 100vh; /*makes sure page is atleast the height of the browser, regardless of content*/
 }
