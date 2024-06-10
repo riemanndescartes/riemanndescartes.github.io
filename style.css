@@ -1,7 +1,6 @@
 body {
     background-color: #d1eda1;
     margin: 0;
-    
 }
 
 .intromsg {
@@ -29,6 +28,7 @@ h1 {
 .menu {
     text-align: center;
     size: 20px;
+    color: #F1C1BD;
     font-family: 'Shadows Into Light';
 }
 a {
