@@ -44,9 +44,9 @@ a.style:active {
     color: #DFDADE; /*#6d8a47*/
 }
 
-/*#content-wrap {
-    padding-bottom: 2.5rem;     Footer height 
-}*/
+#content-wrap {
+    padding-bottom: 2.5rem;     /*Footer height*/
+}
 
 #footer {
     text-align: center;
