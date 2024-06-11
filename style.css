@@ -15,6 +15,9 @@ body {
     background-color: #284A48;
     box-sizing: border-box;
     color: white;
+    text-align: center;
+    align-content: center;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 #page-container {
