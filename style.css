@@ -19,6 +19,16 @@ body {
     align-content: center;
     font-family: "Josefin Sans", sans-serif;
 }
+.intromsgpartb {
+    /*height: 100vh;*/
+    /*background: #f8e5bb;*/
+    background-color: #284A48;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    align-content: center;
+    font-family: "Josefin Sans", sans-serif;
+}
 
 #page-container {
     background-color: #284A48;
