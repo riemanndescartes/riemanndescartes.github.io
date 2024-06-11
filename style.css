@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #d1eda1;
+    /*background-color: #d1eda1;*/
     overflow-x: hidden;
     width: 100vw;
     height: 100vh;
@@ -12,9 +12,9 @@ body {
 .intromsg {
     height: 100vh;
     /*background: #f8e5bb;*/
-    background-color: #284A48;
+    /*background-color: #284A48;*/
     box-sizing: border-box;
-    color: white;
+    color: #F1C1BD;
     text-align: center;
     align-content: center;
     font-family: "Josefin Sans", sans-serif;
@@ -23,9 +23,9 @@ body {
 .intromsgpartb {
     height: 100vh;
     /*background: #f8e5bb;*/
-    background-color: #F1C1BD;
+    /*background-color: #F1C1BD;*/
     box-sizing: border-box;
-    color: white;
+    color: #F1C1BD;
     text-align: start;
     align-content: center;
     font-family: "Josefin Sans", sans-serif;
@@ -33,7 +33,8 @@ body {
 }
 
 #page-container {
-    background-color: #284A48;
+    /*background-color: #284A48;*/
+    background: linear-gradient(to bottom, #182C2B 30%, #CA6D68);
     position: relative;
     min-height: 100vh; /*makes sure page is atleast the height of the browser, regardless of content*/
 }
