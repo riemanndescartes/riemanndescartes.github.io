@@ -18,7 +18,7 @@ body {
     text-align: center;
     align-content: center;
     font-family: "Josefin Sans", sans-serif;
-    font-size: 3.0rem;
+    font-size: 2.0rem;
 }
 .intromsgpartb {
     height: 100vh;
@@ -29,7 +29,7 @@ body {
     text-align: start;
     align-content: center;
     font-family: "Josefin Sans", sans-serif;
-    font-size: 3.0rem;
+    font-size: 2.0rem;
 }
 
 #page-container {
