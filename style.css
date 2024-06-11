@@ -18,16 +18,18 @@ body {
     text-align: center;
     align-content: center;
     font-family: "Josefin Sans", sans-serif;
+    font-size: 3.0rem;
 }
 .intromsgpartb {
     height: 100vh;
     /*background: #f8e5bb;*/
-    background-color: #284A48;
+    background-color: #DFDADE;
     box-sizing: border-box;
     color: white;
-    text-align: center;
+    text-align: start;
     align-content: center;
     font-family: "Josefin Sans", sans-serif;
+    font-size: 3.0rem;
 }
 
 #page-container {
