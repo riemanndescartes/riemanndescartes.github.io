@@ -63,6 +63,9 @@ h1 {
     position: fixed;
 }
 .menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
     text-align: center;
