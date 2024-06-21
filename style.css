@@ -16,6 +16,10 @@ body {
     position: relative;
     min-height: 100vh; /*makes sure page is atleast the height of the browser, regardless of content*/
 }
+.page-container-dark {
+    color: #182C2B;
+    background: linear-gradient(to bottom, #CA6D68 30%, #F1C1BD);
+}
 
 .intromsg {
     height: 100vh;
