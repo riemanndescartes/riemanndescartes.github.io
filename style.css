@@ -65,6 +65,10 @@ h1 {
     position: fixed;
 }
 
+.header-dark {
+    background-color: #CA6D68 !important;
+}
+
 .menu {
     margin: 0;
     padding: 0;
@@ -81,15 +85,25 @@ a {
     color: #F1C1BD;
     text-decoration: none;
 }
+.dark-mode-a a {
+    color: #182C2B;
+}
 /*a.style:link, a.style:visited {
     color: #F1C1BD; 
 }*/ /*previos color: #fcfdfc*/
 a.style:hover {
     color: #CA6D68; /*#b1cf86*/
 }
+.dark-mode-a a.style:hover {
+    color: #1f4644;
+}
 a.style:active {
     color: #DFDADE; /*#6d8a47*/
 }
+.dark-mode-a a.style:active {
+    color: #1b201e;
+}
+
 
 #content-wrap {
     padding-top: 4rem;
