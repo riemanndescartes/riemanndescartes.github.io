@@ -10,7 +10,7 @@ body {
     height: 100vh;
 }
 
-#page-container {
+.page-container {
     color: #F1C1BD;
     /*background-color: #284A48;*/
     background: linear-gradient(to bottom, #182C2B 30%, #CA6D68);
