@@ -6,5 +6,7 @@ function toggleDarkMode() {
     header.classList.toggle("header-dark");
 
     var alink = document.querySelectorAll("a");
-    alink.classList.toggle("dark-mode-a");
+    alink.forEach(function(link) {
+        link.classList.toggle("dark-mode-a");
+    });
 }
