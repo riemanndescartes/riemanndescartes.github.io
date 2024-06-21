@@ -1,10 +1,10 @@
 function toggleDarkMode() {
-    var element = document.getElementById("page-container");
-    element.classList.toggle("page-container-dark");
+    var pagecontainer = document.getElementById("page-container");
+    pagecontainer.classList.toggle("page-container-dark");
 
-    var element = document.header;
-    element.classList.toggle("header-dark");
+    var header = document.querySelector("header");
+    header.classList.toggle("header-dark");
 
-    var element = document.a;
-    element.classList.toggle("dark-mode-a");
+    var alink = document.querySelectorAll("a");
+    alink.classList.toggle("dark-mode-a");
 }
