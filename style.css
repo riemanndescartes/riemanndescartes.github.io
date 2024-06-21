@@ -9,12 +9,19 @@ body {
     height: 100vh;
 }
 
+#page-container {
+    color: #F1C1BD;
+    /*background-color: #284A48;*/
+    background: linear-gradient(to bottom, #182C2B 30%, #CA6D68);
+    position: relative;
+    min-height: 100vh; /*makes sure page is atleast the height of the browser, regardless of content*/
+}
+
 .intromsg {
     height: 100vh;
     /*background: #f8e5bb;*/
     /*background-color: #284A48;*/
     box-sizing: border-box;
-    color: #F1C1BD;
     text-align: center;
     align-content: center;
     font-family: "Josefin Sans", sans-serif;
@@ -25,7 +32,6 @@ body {
     /*background: #f8e5bb;*/
     /*background-color: #F1C1BD;*/
     box-sizing: border-box;
-    color: #F1C1BD;
     text-align: start;
     align-content: center;
     font-family: "Josefin Sans", sans-serif;
@@ -36,19 +42,10 @@ body {
     /*background: #f8e5bb;*/
     /*background-color: #F1C1BD;*/
     box-sizing: border-box;
-    color: #F1C1BD;
     text-align: start;
     align-content: center;
     font-family: "Josefin Sans", sans-serif;
     font-size: 2.0rem;
-}
-    
-
-#page-container {
-    /*background-color: #284A48;*/
-    background: linear-gradient(to bottom, #182C2B 30%, #CA6D68);
-    position: relative;
-    min-height: 100vh; /*makes sure page is atleast the height of the browser, regardless of content*/
 }
 
 h1 {
@@ -62,23 +59,26 @@ h1 {
     width: 100vw;
     position: fixed;
 }
+
 .menu {
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+    justify-content: center; /*justify-content & align-items to center text in header & footer*/
+    align-items: center;
     size: 2rem;
-    color: #F1C1BD;
     font-family: 'Shadows Into Light';
 }
+
 a {
+    color: #F1C1BD;
     text-decoration: none;
 }
-a.style:link, a.style:visited {
-    color: #F1C1BD; /*#fcfdfc*/
-}
+/*a.style:link, a.style:visited {
+    color: #F1C1BD; 
+}*/ /*previos color: #fcfdfc*/
 a.style:hover {
     color: #CA6D68; /*#b1cf86*/
 }
