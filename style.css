@@ -29,7 +29,9 @@ body {
     box-sizing: border-box;
     text-align: center;
     align-content: center;
-    font-family: "DM Serif Text", serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
     font-size: 2.0rem;
 }
 .intromsgpartb {
@@ -39,7 +41,9 @@ body {
     box-sizing: border-box;
     text-align: start;
     align-content: center;
-    font-family: "DM Serif Text", serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
     font-size: 2.0rem;
 }
 .plan {
@@ -49,7 +53,9 @@ body {
     box-sizing: border-box;
     text-align: start;
     align-content: center;
-    font-family: "DM Serif Text", serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
     font-size: 2.0rem;
 }
 
@@ -78,7 +84,9 @@ h1 {
     justify-content: center; /*justify-content & align-items to center text in header & footer*/
     align-items: center;
     size: 2rem;
-    font-family: "DM Serif Text", serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 a {
