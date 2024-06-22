@@ -29,7 +29,7 @@ body {
     box-sizing: border-box;
     text-align: center;
     align-content: center;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "DM Serif Text", serif;
     font-size: 2.0rem;
 }
 .intromsgpartb {
@@ -39,7 +39,7 @@ body {
     box-sizing: border-box;
     text-align: start;
     align-content: center;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "DM Serif Text", serif;
     font-size: 2.0rem;
 }
 .plan {
@@ -49,7 +49,7 @@ body {
     box-sizing: border-box;
     text-align: start;
     align-content: center;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "DM Serif Text", serif;
     font-size: 2.0rem;
 }
 
@@ -78,7 +78,7 @@ h1 {
     justify-content: center; /*justify-content & align-items to center text in header & footer*/
     align-items: center;
     size: 2rem;
-    font-family: 'Shadows Into Light';
+    font-family: "DM Serif Text", serif;
 }
 
 a {
