@@ -9,4 +9,6 @@ function toggleDarkMode() {
     alink.forEach(function(link) {
         link.classList.toggle("dark-mode-a");
     });
+
+    document.documentElement.classList.toggle('dark-scroll');
 }
