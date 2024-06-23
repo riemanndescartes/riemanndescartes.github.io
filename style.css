@@ -20,8 +20,10 @@ body {
     min-height: 100vh; /*makes sure page is atleast the height of the browser, regardless of content*/
 }
 .page-container-dark {
-    color: #182C2B !important;
-    background: linear-gradient(to bottom, #CA6D68 30%, #F1C1BD) !important;
+    /*color: #182C2B !important;
+    background: linear-gradient(to bottom, #CA6D68 30%, #F1C1BD) !important;*/
+    color: #F1C1BD !important;
+    background: linear-gradient(to bottom, #182C2B 30%, #CA6D68) !important;
 }
 
 .intromsg {
@@ -49,7 +51,7 @@ body {
     font-size: 2.0rem;
 }
 .plan {
-     height: 100vh;
+    height: 100vh;
     /*background: #f8e5bb;*/
     /*background-color: #F1C1BD;*/
     box-sizing: border-box;
@@ -68,13 +70,15 @@ h1 {
 #header {
     height: 4rem;
     align-content: center;
-    background-color: #182C2B;
+    /*background-color: #182C2B;*/
+    background-color: #f2ebd8;
     width: 100vw;
     position: fixed;
 }
 
 .header-dark {
-    background-color: #CA6D68 !important;
+    /*background-color: #CA6D68 !important;*/
+    background-color: #182C2B !important;
 }
 
 .menu {
@@ -89,7 +93,7 @@ h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
-    background: #f2ebd8;
+    /*background: #f2ebd8;*/
 }
 
 a {
@@ -98,7 +102,8 @@ a {
     text-decoration: none;
 }
 .dark-mode-a {
-    color: #182C2B;
+    /*color: #182C2B;*/
+    color: #F1C1BD;
 }
 /*a.style:link, a.style:visited {
     color: #F1C1BD; 
@@ -108,7 +113,8 @@ a.style:hover {
     color: #F1C1BD;
 }
 .dark-mode-a.style:hover {
-    color: #1f4644;
+    /*color: #1f4644;*/
+    color: #CA6D68;
 }
 a.style:active {
     color: #DFDADE; /*#6d8a47*/
