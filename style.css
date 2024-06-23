@@ -93,7 +93,8 @@ h1 {
 }
 
 a {
-    color: #F1C1BD;
+    /*color: #F1C1BD;*/
+    color: #CA6D68;
     text-decoration: none;
 }
 .dark-mode-a {
@@ -103,7 +104,8 @@ a {
     color: #F1C1BD; 
 }*/ /*previos color: #fcfdfc*/
 a.style:hover {
-    color: #CA6D68; /*#b1cf86*/
+    /*color: #CA6D68;*/ /*#b1cf86*/
+    color: #F1C1BD;
 }
 .dark-mode-a.style:hover {
     color: #1f4644;
