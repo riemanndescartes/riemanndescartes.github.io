@@ -1,3 +1,7 @@
+/*function home() {
+    var mode = true; 
+}*/ /*A LATER PROBLEM*/
+
 function toggleDarkMode() {
     var pagecontainer = document.getElementById("page-container");
     pagecontainer.classList.toggle("page-container-dark");
