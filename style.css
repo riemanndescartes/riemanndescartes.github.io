@@ -97,6 +97,8 @@ h1 {
     font-weight: 500;
     font-style: normal;
     font-size: 19px;
+    background: transparent;
+    backdrop-filter: blur(10px);
     /*background: #f2ebd8;*/
 }
 
