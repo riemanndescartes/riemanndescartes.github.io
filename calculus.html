@@ -1,11 +1,33 @@
 <!DOCTYPE html> <!--this node tells browser to use standard mode-->
 <html lang="en-US">
-   <meta charset="utf-8" />
-    <title>Riemann Descartes</title>
-    <meta name="viewport" content="width=device-width" /><!--makes the width of the content the width of the screen-->
-    <link rel="stylesheet" href="./style.css" type="text/css" /><!--style element (if needed) would go to the <head> as well-->
-    <link rel="icon" sizes="64x64" href="./icon.png" type="image/png" /><!--that small image on the left side of ur browser name. DEBUG-->
-  <h1>Review!!!</h1>
-   <h2 id="Unit 1" </h2>
+   <head>
+      <meta charset="utf-8" />
+      <title>Riemann Descartes</title>
+      <meta name="viewport" content="width=device-width" /><!--makes the width of the content the width of the screen-->
+      <link rel="stylesheet" href="./style.css" type="text/css" /><!--style element (if needed) would go to the <head> as well-->
+      <link rel="icon" sizes="64x64" href="./icon.png" type="image/png" /><!--that small image on the left side of ur browser name. DEBUG-->
+      <script src="./main.js"></script><!--defer or async attribute-->
+   </head>
+   <body>
+      <div id="page-container">
+         <header id="header">
+            <h1 class="menu">
+               <a href="./index.html" class="style">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+               <a href="./calculus.html" class="style">Calculus!</a>&nbsp;&nbsp;&nbsp;&nbsp;
+               <a href="./formulas.html" class="style">Theorems + Formula</a>&nbsp;&nbsp;&nbsp;&nbsp;
+               <a href="./about.html" class="style">About</a>
+            </h1>
+         </header>
+         <div id="content-wrap">
+            <!-- all other page content -->
+            <button onclick="toggleDarkMode()">Toggle dark mode</button>
+            <section>
+               <h1>Review!!!</h1>
+            </section>
+         </div>
+         <footer id="footer">
+            <h1 class="menu">&lt;/riemanndescartes&gt;</h1>
+         </footer>
+      </div>
+   </body>
 </html>
-
