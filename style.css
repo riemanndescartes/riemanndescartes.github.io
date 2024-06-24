@@ -15,7 +15,6 @@ body {
 
 #page-container {
     /*color: #CA6D68;*/
-    color: #C1E1C1;
     /*background-color: #284A48;*/
     /*background: linear-gradient(to bottom, #182C2B 30%, #CA6D68);*/
     background: linear-gradient(to bottom, #f2ebd8 30%, #CA6D68);
@@ -41,6 +40,7 @@ body {
     font-weight: 500;
     font-style: normal;
     font-size: 2.0rem;
+    color: black;
 }
 .intromsgpartb {
     height: 100vh;
@@ -53,6 +53,7 @@ body {
     font-weight: 500;
     font-style: normal;
     font-size: 2.0rem;
+    color: white;
 }
 .plan {
     height: 100vh;
@@ -65,6 +66,7 @@ body {
     font-weight: 500;
     font-style: normal;
     font-size: 2.0rem;
+    color: black;
 }
 
 h1 {
