@@ -74,9 +74,11 @@ h1 {
     height: 4rem;
     align-content: center;
     /*background-color: #182C2B;*/
-    background-color: #f2ebd8;
+    /*background-color: #f2ebd8; now */
     width: 100vw;
     position: fixed;
+    background: transparent;
+    backdrop-filter: blur(10px);
 }
 
 .header-dark {
@@ -97,8 +99,6 @@ h1 {
     font-weight: 500;
     font-style: normal;
     font-size: 19px;
-    background: transparent;
-    backdrop-filter: blur(10px);
     /*background: #f2ebd8;*/
 }
 
