@@ -84,10 +84,10 @@ h1 {
     backdrop-filter: blur(10px);
 }
 
-.header-dark {
-    /*background-color: #CA6D68 !important;*/
-    /*background-color: #182C2B !important;*/
-}
+/*.header-dark {
+    background-color: #CA6D68 !important;
+    background-color: #182C2B !important;
+}*/
 
 .menu {
     margin: 0;
