@@ -134,7 +134,7 @@ a.style:active {
 
 
 #content-wrap {
-    padding-top: 4rem;
+    padding-top: 6rem; /*Header height*/
     padding-bottom: 3.25rem;     /*Footer height*/
 }
 
