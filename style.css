@@ -40,6 +40,8 @@ body {
     font-style: normal;
     font-size: 2.0rem;
     color: #CA6D68;
+    position: relative;
+    right: 100px;
 }
 .intromsg-dark {
     color: #F1C1BD !important;
