@@ -18,6 +18,12 @@ function toggleDarkMode() {
 
     var intromsg = document.getElementById("intromsg");
     intromsg.classList.toggle("intromsg-dark");
+    
+    var intromsgpartb = document.getElementById("intromsgpartb");
+    intromsgpartb.classList.toggle("intromsgpartb-dark");
+
+    var plan = document.getElementById("plan");
+    plan.classList.toggle("plan-dark");
 
     var footer = document.getElementById("footer");
     footer.classList.toggle("intromsg-dark");
