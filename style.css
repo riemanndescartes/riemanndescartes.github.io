@@ -18,18 +18,17 @@ body {
     /*background-color: #284A48;*/
     /*background: linear-gradient(to bottom, #182C2B 30%, #CA6D68);*/
     background: linear-gradient(to bottom, #f2ebd8 30%, #CA6D68);
-    
     position: relative;
     min-height: 100vh; /*makes sure page is atleast the height of the browser, regardless of content*/
 }
 .page-container-dark {
     /*color: #182C2B !important;
     background: linear-gradient(to bottom, #CA6D68 30%, #F1C1BD) !important;*/
-    color: #F1C1BD !important;
+    /*color: #F1C1BD !important;*/
     background: linear-gradient(to bottom, #182C2B 30%, #CA6D68) !important;
 }
 
-.intromsg {
+#intromsg {
     height: 100vh;
     /*background: #f8e5bb;*/
     /*background-color: #284A48;*/
@@ -41,6 +40,9 @@ body {
     font-style: normal;
     font-size: 2.0rem;
     color: #CA6D68;
+}
+.intromsg-dark {
+    color: #F1C1BD !important;
 }
 .intromsgpartb {
     height: 100vh;
@@ -148,9 +150,12 @@ a.style:active {
     bottom: 0;
     width: 100%;
     height: 3.25rem;            /* Footer height */
-    
+    color: #f2ebd8;
     /*padding-left: auto;
     padding-right: auto;
     padding-top: 5px;
     padding-bottom: 5px;*/
+}
+.footer-dark {
+    color: #F1C1BD !important;
 }

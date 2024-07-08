@@ -15,4 +15,10 @@ function toggleDarkMode() {
     });
 
     document.documentElement.classList.toggle('dark-scroll');
+
+    var intromsg = document.getElementById("intromsg");
+    intromsg.classList.toggle("intromsg-dark");
+
+    var footer = document.getElementById("footer");
+    footer.classList.toggle("intromsg-dark");
 }
