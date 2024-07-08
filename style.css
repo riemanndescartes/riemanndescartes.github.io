@@ -33,8 +33,8 @@ body {
     /*background: #f8e5bb;*/
     /*background-color: #284A48;*/
     box-sizing: border-box;
-    text-align: center;
-    align-content: start;
+    text-align: start;
+    align-content: center;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
