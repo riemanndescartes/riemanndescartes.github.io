@@ -44,10 +44,10 @@ body {
     left: 25px;
 }
 #calc {
-    background-image: linear-gradient(45deg, blue, pink);
+    background-image: linear-gradient(90deg, blue, pink);
     background-clip: text;
     color: transparent;
-        }
+    }
 .intromsg-dark {
     color: #F1C1BD !important;
 }
