@@ -42,6 +42,7 @@ body {
     color: #CA6D68;
     position: relative;
     left: 25px;
+    bottom: 20px;
 }
 .calc {
     background-image: linear-gradient(60deg, blue, pink);
