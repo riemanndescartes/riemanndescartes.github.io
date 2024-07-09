@@ -40,7 +40,7 @@ body {
     font-style: normal;
     font-size: 2.0rem;
     color: #CA6D68;
-    position: relative;
+    /*position: relative;*/
     left: 25px;
 }
 .calc {
@@ -65,7 +65,7 @@ body {
     font-style: normal;
     font-size: 2.0rem;
     color: #f2ebd8;
-    position: relative;
+    /*position: relative;*/
     left: 25px;
 }
 .intromsgpartb-dark {
@@ -83,7 +83,7 @@ body {
     font-style: normal;
     font-size: 2.0rem;
     color: #CA6D68;
-    position: relative;
+    /*position: relative;*/
     left: 25px;
 }
 .plan-dark {
