@@ -32,6 +32,7 @@ body {
     height: 100vh;
     /*background: #f8e5bb;*/
     /*background-color: #284A48;*/
+    box-sizing: border-box;
     text-align: start;
     align-content: center;
     font-family: "Poppins", sans-serif;
@@ -44,6 +45,7 @@ body {
 }
 #calc {
     background-image: linear-gradient(90deg, blue, pink);
+    background-clip: text;
     color: transparent;
     }
 .intromsg-dark {
