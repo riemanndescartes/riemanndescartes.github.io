@@ -40,8 +40,9 @@ body {
     font-style: normal;
     font-size: 2.0rem;
     color: #CA6D68;
-    /*position: relative;*/
-    left: 25px;
+    /*position: relative;
+    left: 25px;*/
+    padding: 25px 25px;
 }
 .calc {
     background-image: linear-gradient(60deg, #8403fc, pink);
@@ -65,8 +66,9 @@ body {
     font-style: normal;
     font-size: 2.0rem;
     color: #f2ebd8;
-    /*position: relative;*/
-    left: 25px;
+    /*position: relative;
+    left: 25px;*/
+    padding: 25px 25px;
 }
 .intromsgpartb-dark {
     color: #F1C1BD !important;
@@ -83,8 +85,9 @@ body {
     font-style: normal;
     font-size: 2.0rem;
     color: #CA6D68;
-    /*position: relative;*/
-    left: 25px;
+    /*position: relative;
+    left: 25px;*/
+    padding: 25px 25px;
 }
 .plan-dark {
     color: #F1C1BD !important;
