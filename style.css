@@ -45,7 +45,6 @@ body {
 }
 #calc {
     background-image: linear-gradient(90deg, blue, pink);
-    background-clip: text;
     color: transparent;
     }
 .intromsg-dark {
