@@ -47,6 +47,7 @@ body {
     background-image: linear-gradient(60deg, blue, pink);
     background-clip: text;
     color: transparent;
+    display: inline-block;
     
     }
 .intromsg-dark {
