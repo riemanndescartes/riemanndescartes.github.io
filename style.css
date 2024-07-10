@@ -96,6 +96,7 @@ body {
 }
 
 #side-bar {
+    float:left;
     width: 28vw;
     background: #f8e5bb;
     /*background-color: #284A48;*/
@@ -103,6 +104,7 @@ body {
 }
 
 #content {
+    float:right;
     width: 72vw;
     /*background: #f8e5bb;*/
     background: #284A48;
@@ -110,13 +112,12 @@ body {
 }
 
 .child {
-    display: inline-block;
-    height: 100vh;
+    height: 75vh;
     box-sizing: border-box;
     text-align: start;
     align-content: top;
     font-family: "Poppins", sans-serif;
-    padding: 25px;
+    padding: 1vw;
 }
 
 h1 {
@@ -124,7 +125,7 @@ h1 {
 }
 
 #header {
-    height: 6rem;
+    height: 16vh;
     align-content: center;
     /*background-color: #182C2B;*/
     /*background-color: #f2ebd8; now */
@@ -184,8 +185,9 @@ a.style:active {
 
 
 #content-wrap {
-    padding-top: 6rem; /*Header height*/
-    padding-bottom: 3.25rem;     /*Footer height*/
+    padding-top: 16vh; /*Header height*/
+    padding-bottom: 9vh;     /*Footer height*/
+    height: 75vh;
 }
 
 #footer {
@@ -196,8 +198,8 @@ a.style:active {
     font-family: 'Shadows Into Light';
     position: absolute;
     bottom: 0;
-    width: 100%;
-    height: 3.25rem;            /* Footer height */
+    width: 100vw;
+    height: 9vh;            /* Footer height */
     color: #f2ebd8;
     /*padding-left: auto;
     padding-right: auto;
