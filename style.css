@@ -95,36 +95,26 @@ body {
 }
 
 #side-bar {
-    height: 100vh;
     width: 28vw;
     background: #f8e5bb;
     /*background-color: #284A48;*/
-    box-sizing: border-box;
-    text-align: start;
-    align-content: top;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 2.0rem;
     color: #CA6D68;
-    padding: 25px 25px 25px 25px;
 }
 
 #content {
-    height: 100vh;
-    width: 69vw;
+    width: 72vw;
     /*background: #f8e5bb;*/
-    background-color: #284A48;
+    background: #284A48;
+    color: #CA6D68;
+}
+
+.child {
+    display: inline-block;
+    height: 100vh;
     box-sizing: border-box;
     text-align: start;
     align-content: top;
     font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 2.0rem;
-    color: #CA6D68;
-    /*position: relative;
-    left: 25px;*/
     padding: 25px;
 }
 
