@@ -1,6 +1,7 @@
 *{
     margin: 0;
     scrollbar-color: #ecc9c7 #f2ebd8; /*for funsies*/
+    scrollbar-width: 3vw;
 }
 .dark-scroll {
     scrollbar-color: #335654 #182C2B !important; /*for funsies*/
@@ -111,7 +112,7 @@ body {
 
 #content {
     height: 100vh;
-    width: 72vw;
+    width: 69vw;
     /*background: #f8e5bb;*/
     background-color: #284A48;
     box-sizing: border-box;
