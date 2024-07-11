@@ -121,9 +121,14 @@ body {
 }
 
 h1 {
-    size: 50px;
+    font-size: 6vh;
 }
-
+.side-bar-heading {
+    font-size: 5vh;
+}
+h2 {
+    font-size: 3.5vh;
+}
 #header {
     height: 16vh;
     align-content: center;
