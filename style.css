@@ -105,11 +105,12 @@ body {
     color: #CA6D68;
 }
 
-/*#content {
+#content {
     float:right;
     width: 72vw;
     color: #CA6D68;
-}*/
+    padding-left: 28vw;
+}
 
 .child {
     height: 84vh;
@@ -213,6 +214,9 @@ a.style:active {
     padding-right: auto;
     padding-top: 5px;
     padding-bottom: 5px;*/
+}
+.footer-calc {
+    padding-left: 14vw;
 }
 .footer-dark {
     color: #F1C1BD !important;
