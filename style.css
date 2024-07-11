@@ -185,8 +185,8 @@ a.style:active {
 
 
 #content-wrap {
-    padding-top: 6rem; /*Header height*/
-    padding-bottom: 3.25rem;     /*Footer height*/
+    padding-top: 16vh; /*Header height*/
+    padding-bottom: 9vh;     /*Footer height*/
 }
 
 .parent {
