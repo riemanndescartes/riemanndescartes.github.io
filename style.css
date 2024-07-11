@@ -95,6 +95,7 @@ body {
 }
 
 #side-bar {
+    position:fixed;
     float:left;
     width: 28vw;
     background: linear-gradient(to bottom, #f2ebd8 30%, #CA6D68);;
@@ -102,12 +103,11 @@ body {
     color: #CA6D68;
 }
 
-#content {
+/*#content {
     float:right;
     width: 72vw;
-    /*background: #f8e5bb;*/
     color: #CA6D68;
-}
+}*/
 
 .child {
     height: 84vh;
@@ -194,6 +194,7 @@ a.style:active {
 }
 
 .parent {
+    padding-left: 28vh;
     height: 84vh;
 }
 #footer {
