@@ -95,18 +95,17 @@ body {
 }
 
 #side-bar {
-    padding-top: 16vh;
     position:fixed;
     float:left;
     width: 28vw;
     height: 84vh;
-    background: linear-gradient(to bottom, #f2ebd8 30%, #CA6D68);;
+    background: #f7db8f;
     /*background-color: #284A48;*/
     color: #CA6D68;
 }
 
 #content {
-    float:right;
+    float: right;
     width: 72vw;
     color: #CA6D68;
     padding-left: 28vw;
@@ -114,6 +113,7 @@ body {
 
 .child {
     height: 84vh;
+    width: 100vw;
     box-sizing: border-box;
     text-align: start;
     align-content: top;
