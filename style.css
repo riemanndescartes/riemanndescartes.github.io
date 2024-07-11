@@ -136,8 +136,8 @@ h1 {
 }
 
 button {
-    position: left;
-    padding-left: 1vw;
+    position: right;
+    right: 1vw;
 }
 
 /*.header-dark {
