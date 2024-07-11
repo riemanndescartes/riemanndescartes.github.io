@@ -98,7 +98,6 @@ body {
     position:fixed;
     float:left;
     width: 28vw;
-    height: 84vh;
     background: #F1C1BD;
     /*background-color: #284A48;*/
     color: #CA6D68;
@@ -111,8 +110,7 @@ body {
 }
 
 .child {
-    height: 84vh;
-    width: 100vw;
+    min-height: 84vh;
     box-sizing: border-box;
     text-align: start;
     align-content: top;
@@ -204,7 +202,7 @@ a.style:active {
 }
 
 .parent {
-    height: 84vh;
+    min-height: 84vh;
 }
 #footer {
     text-align: center;
