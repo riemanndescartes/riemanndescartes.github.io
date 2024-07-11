@@ -136,8 +136,9 @@ h1 {
 }
 
 button {
-    position: right;
-    right: 1vw;
+    position: relative;
+    float: right;
+    right: 2vw;
 }
 
 /*.header-dark {
