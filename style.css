@@ -125,9 +125,12 @@ h1 {
 }
 .side-bar-heading {
     font-size: 5vh;
+    padding-top: 2vh;
+    padding-bottom: 3vh;
 }
-h2 {
+.side-bar-topics {
     font-size: 3.5vh;
+    padding-bottom: 1.5vh;
 }
 #header {
     height: 16vh;
