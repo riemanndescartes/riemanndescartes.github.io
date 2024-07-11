@@ -112,7 +112,7 @@ body {
 }
 
 .child {
-    height: 75vh;
+    height: 84vh;
     box-sizing: border-box;
     text-align: start;
     align-content: top;
@@ -190,7 +190,7 @@ a.style:active {
 }
 
 .parent {
-    height: 75vh;
+    height: 84vh;
 }
 #footer {
     text-align: center;
