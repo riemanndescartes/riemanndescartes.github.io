@@ -187,9 +187,11 @@ a.style:active {
 #content-wrap {
     padding-top: 16vh; /*Header height*/
     padding-bottom: 9vh;     /*Footer height*/
-    height: 75vh;
 }
 
+.parent {
+    height: 75vh;
+}
 #footer {
     text-align: center;
     /*background-color: #284A48;*/
