@@ -168,7 +168,7 @@ a {
     /*color: #F1C1BD;*/
     color: #CA6D68;
     text-decoration: none;
-    transition: 0.5s;
+    
 }
 .dark-mode-a {
     /*color: #182C2B;*/
@@ -180,7 +180,7 @@ a {
 a.style:hover {
     /*color: #CA6D68;*/ /*#b1cf86*/
     color: #F1C1BD;
-    text-decoration: underline;
+
 }
 .dark-mode-a.style:hover {
     /*color: #1f4644;*/
