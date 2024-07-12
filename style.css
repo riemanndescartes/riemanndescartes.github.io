@@ -168,6 +168,7 @@ a {
     /*color: #F1C1BD;*/
     color: #CA6D68;
     text-decoration: none;
+    transition: 0.5s;
 }
 .dark-mode-a {
     /*color: #182C2B;*/
