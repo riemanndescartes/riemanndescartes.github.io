@@ -179,6 +179,7 @@ a {
 a.style:hover {
     /*color: #CA6D68;*/ /*#b1cf86*/
     color: #F1C1BD;
+    text-decoration: underline;
 }
 .dark-mode-a.style:hover {
     /*color: #1f4644;*/
