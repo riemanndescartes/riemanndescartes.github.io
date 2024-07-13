@@ -19,11 +19,16 @@ h4.tangent {
 }
 
 h5.pre-req {
-
+    border-left-style: double;
+    border-left-width: thick; 
+    border-color: darkred; 
+    text-align: left; 
+    border-radius: 1vw;
+    font-style: italic;
 }
 
 a.notebook {
-    
+
 }
 /*h2 {
   font-weight: bold;
