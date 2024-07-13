@@ -30,7 +30,7 @@ body {
 }
 
 #intromsg {
-    height: 100vh;
+    height: 84vh;
     /*background: #f8e5bb;*/
     /*background-color: #284A48;*/
     box-sizing: border-box;
@@ -75,7 +75,7 @@ body {
     color: #F1C1BD !important;
 }
 #plan {
-    height: 100vh;
+    height: 91vh;
     /*background: #f8e5bb;*/
     /*background-color: #F1C1BD;*/
     box-sizing: border-box;
