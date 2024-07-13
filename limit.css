@@ -15,21 +15,27 @@ h3.text-content {
 }
 
 h4.tangent {
-
+    padding-bottom: 2vh;
+    font-style: italic;
 }
+
+/*div.align-pre-req {
+    float: right;
+    text-align: left;
+}*/
 
 h5.pre-req {
     border-left-style: double;
     border-left-width: thick; 
     border-color: darkred; 
-    text-align: left; 
-    border-radius: 1vw;
+    border-radius: 0.8vw;
     font-style: italic;
-    padding-left: 40vw;
+    padding-left: 0.5vw;
+    float: right;
 }
 
 a.notebook {
-
+    text-decoration: underline;
 }
 /*h2 {
   font-weight: bold;
