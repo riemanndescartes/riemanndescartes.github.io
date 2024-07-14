@@ -116,6 +116,10 @@ body {
     color: #CA6D68;
 }
 
+.content-dark {
+    color: #F1C1BD !important;
+}
+
 .child {
     /*min-height: 84vh;*/
     box-sizing: border-box;

@@ -3,6 +3,16 @@
 }*/ /*A LATER PROBLEM*/
 
 function toggleDarkMode() {
+    toggleDarkModeGeneral();
+    toggleDarkModeHome();
+
+}
+
+function toggleDarkModeContent() {
+    toggleDarkModeGeneral();
+    toggleDarkModeCalculus();
+}
+function toggleDarkModeGeneral() {
     var pagecontainer = document.getElementById("page-container");
     pagecontainer.classList.toggle("page-container-dark");
 
@@ -16,6 +26,11 @@ function toggleDarkMode() {
 
     document.documentElement.classList.toggle('dark-scroll');
 
+    var footer = document.getElementById("footer");
+    footer.classList.toggle("intromsg-dark");
+}
+
+function toggleDarkModeHome() {
     var intromsg = document.getElementById("intromsg");
     intromsg.classList.toggle("intromsg-dark");
     
@@ -24,7 +39,9 @@ function toggleDarkMode() {
 
     var plan = document.getElementById("plan");
     plan.classList.toggle("plan-dark");
+}
 
-    var footer = document.getElementById("footer");
-    footer.classList.toggle("intromsg-dark");
+function toggleDarkModeCalculus() {
+    var content = document.getElementById("content");
+    content.classList.toggle("content-dark");
 }
