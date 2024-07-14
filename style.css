@@ -238,3 +238,17 @@ a.style:active {
 .footer-dark {
     color: #F1C1BD !important;
 }
+
+.end {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /*justify-content & align-items to center text in header & footer*/
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3vh;
+    /*background: #f2ebd8;*/
+}
