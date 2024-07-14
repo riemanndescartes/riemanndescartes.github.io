@@ -1,39 +1,48 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!--this node tells browser to use standard mode-->
 <html lang="en-US">
-    <head>
-        <meta charset="utf-8" />
-        <title>Unit 2 - The Derivative</title>
-        <meta name="viewport" content="width=device-width" />
-        <link rel="stylesheet" href="./style.css" type="text/css" />
-        <link rel="icon" sizes="64x64" href="./icon.png" type="image/png" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" />
-        <script src="./main.js"></script>
-        <style>
-            body {
-                font-family: 'Poppins', sans-serif;
-            }
-        </style>
-    </head>
-    <body>
-        <div id="page-container">
-            <header id="header">
-                <h1 class="menu">
-                    <a href="./index.html" class="style">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="./calculus.html" class="style">Calculus!</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="./formulas.html" class="style">Theorems + Formula</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="./about.html" class="style">About</a>
-                </h1>
-            </header>
-            <div id="content-wrap">
-                <button onclick="toggleDarkMode()">Toggle dark mode</button>
-                <section>
-                    <h1>Average & Instantaneous Rate of Change</h1>
-                    <p>Average rate of change over interval [a,b]</p>
-                </section>
+   <head>
+      <meta charset="utf-8" />
+      <title>The Derivative</title>
+      <meta name="viewport" content="width=device-width" />
+      <link rel="stylesheet" href="./style.css" type="text/css" />
+      <link rel="stylesheet" href="./limit.css" type="text/css" />
+      <link rel="icon" sizes="64x64" href="./icon.png" type="image/png" />
+      <script src="./main.js"></script><!--defer or async attribute-->
+   </head>
+   <body>
+      <div id="page-container">
+         <header id="header">
+            <h1 class="menu">
+               <a href="./index.html" class="style">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <a href="./calculus.html" class="style">Calculus!</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <a href="./formulas.html" class="style">Theorems + Formula</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <a href="./about.html" class="style">About</a>
+            </h1>
+            <button onclick="toggleDarkMode()">Toggle dark mode</button>
+         </header>
+         <div id="content-wrap" class="parent">
+            <!-- all other page content -->
+            <div id="side-bar" class="child">
+               <h1 class="side-bar-heading">Table of Contents</h1>
+               <h2 class="side-bar-topics"><a href="./unit1limitsandcontinuity.html">Unit 1: Limits and Continuity</a></h2>
+               <h2 class="side-bar-topics"><a href="./unit2thederivative.html">Unit 2: The Derivative</a></h2>
+               <h2 class="side-bar-topics">Unit 3: </h2>
+               <h2 class="side-bar-topics">Unit 4: Contextual Application of Differentiation</h2>
+               <h2 class="side-bar-topics">Unit 5: Analytical Application of Differentiation</h2>
+               <h2 class="side-bar-topics"><a href="./unit6integration.html">Unit 6: Integration</a></h2>
+               <h2 class="side-bar-topics">Unit 7: </h2>
+               <h2 class="side-bar-topics">Unit 8: Applications of Integration</h2>
+               <h2 class="side-bar-topics">Integration by Parts</h2>
             </div>
-            <footer id="footer">
-                <h1 class="menu">&lt;/riemanndescartes&gt;</h1>
-            </footer>
-        </div>
-    </body>
+            <div id="content" class="child">
+               <h1 class="heading">THE DERIVATIVE~</h1>
+               <h2 class="sub-heading">Average & Instantaneous Rates of Change</h2>
+               <h3 class="text-content">Average rate of change over interval [a,b]</h2>
+            </div>
+         </div>
+         <footer id="footer" class="footer-calc">
+            <h1 class="menu">&lt;/riemanndescartes&gt;</h1>
+         </footer>
+      </div>
+   </body>
 </html>
