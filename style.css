@@ -95,6 +95,7 @@ body {
 }
 
 #side-bar {
+    min-height: 84vh;
     position:fixed;
     float:left;
     width: 28vw;
@@ -110,7 +111,7 @@ body {
 }
 
 .child {
-    min-height: 84vh;
+    /*min-height: 84vh;*/
     box-sizing: border-box;
     text-align: start;
     align-content: top;
