@@ -146,12 +146,9 @@ body {
     position: fixed;
     background: transparent;
     backdrop-filter: blur(5px);
-}
-
-button {
-    position: relative;
-    float: right;
-    right: 2vw;
+    display:flex;
+    justify-content: center;
+    align-items: center
 }
 
 /*.header-dark {
@@ -162,25 +159,30 @@ button {
 .menu {
     margin: 0;
     padding: 0;
+    padding-left: 32vw;
+    padding-right: 22vw;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     justify-content: center; /*justify-content & align-items to center text in header & footer*/
     align-items: center;
-    size: 2rem;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 19px;
+    font-size: 3vh;
     /*background: #f2ebd8;*/
+}
+
+.button {
+    width: 10vw;
 }
 
 a {
     /*color: #F1C1BD;*/
     color: #CA6D68;
     text-decoration: none;
-    
 }
+
 .dark-mode-a {
     /*color: #182C2B;*/
     color: #F1C1BD;
