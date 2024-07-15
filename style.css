@@ -159,8 +159,8 @@ body {
 .menu {
     margin: 0;
     padding: 0;
-    padding-left: 32vw;
-    padding-right: 22vw;
+    padding-left: 30vw;
+    padding-right: 20vw;
     display: flex;
     flex-direction: row;
     /*flex-wrap: wrap;*/
