@@ -101,7 +101,7 @@ body {
 }
 
 #side-bar {
-    min-height: 84vh;
+    min-height: 88vh;
     position:fixed;
     float:left;
     width: 28vw;
@@ -138,7 +138,7 @@ body {
     padding-bottom: 1.5vh;
 }
 #header {
-    height: 16vh;
+    height: 12vh;
     align-content: center;
     /*background-color: #182C2B;*/
     /*background-color: #f2ebd8; now */
@@ -208,9 +208,9 @@ a.style:active {
 
 
 #content-wrap {
-    padding-top: 16vh; /*Header height*/
+    padding-top: 12vh; /*Header height*/
     padding-bottom: 9vh;     /*Footer height*/
-    min-height: 84vh;
+    min-height: 88vh;
 }
 
 /*.parent {
