@@ -7,3 +7,4 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; /*makes sure page is atleast the height of the browser, regardless of content*/
+}
