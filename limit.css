@@ -1,5 +1,5 @@
 h1.heading {
-
+    
 }
 
 h2.sub-heading {
@@ -27,7 +27,7 @@ h4.tangent {
 h5.pre-req {
     border-left-style: double;
     border-left-width: thick; 
-    border-color: darkred; 
+    /*border-color: darkred; */
     border-radius: 0.8vw;
     font-style: italic;
     padding-left: 0.5vw;

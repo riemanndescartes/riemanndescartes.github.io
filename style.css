@@ -105,9 +105,16 @@ body {
     position:fixed;
     float:left;
     width: 28vw;
-    background: #F1C1BD;
+    /*background: #F1C1BD;*/
+    border-right-style: solid;
+    border-color: #F1C1BD;
     /*background-color: #284A48;*/
     color: #CA6D68;
+}
+
+.side-bar-dark {
+    color: #F1C1BD !important;
+    border-color: #CA6D68 !important;
 }
 
 #content {

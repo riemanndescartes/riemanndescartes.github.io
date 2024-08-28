@@ -5,7 +5,6 @@
 function toggleDarkMode() {
     toggleDarkModeGeneral();
     toggleDarkModeHome();
-
 }
 
 function toggleDarkModeContent() {
@@ -44,4 +43,7 @@ function toggleDarkModeHome() {
 function toggleDarkModeCalculus() {
     var content = document.getElementById("content");
     content.classList.toggle("content-dark");
+
+    var sidebar = document.getElementById("side-bar");
+    sidebar.classList.toggle("side-bar-dark");
 }
