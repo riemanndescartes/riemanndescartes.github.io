@@ -8,6 +8,7 @@
       <link rel="stylesheet" href="./limit.css" type="text/css" />
       <link rel="icon" sizes="64x64" href="./icon.png" type="image/png" /><!--that small image on the left side of ur browser name. DEBUG-->
       <script src="./main.js"></script><!--defer or async attribute-->
+      <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
    </head>
    <body>
       <div id="page-container">
@@ -39,31 +40,55 @@
             <div id="content" class="child">
                <h1 class="heading">LIMITS &amp; CONTINUITY!!!</h1>
                <h5 class="pre-req"><strong>Remember end behavior from pre-calc?</strong> Well good for you cause I do!<br>
-                <!--insert image; square shaped--> For the graph to the left,<br>As x &rarr; +&infin;, y &rarr; +&infin;<br>&amp; as x &rarr; -&infin;, y &rarr; -&infin;<br>
+                <!--insert image; square shaped--> For the graph to the left,<br>As \(x \to +\infty\), \(y \to +\infty\)<br>&amp; as \(x \to -\infty\), \(y \to -\infty\)<br>
                 This is actually a limit!<br>Let's see how it is written in <a class="notebook">limit notation</a>!</h5>
                <h4 class="tangent">I know your excited! So let's get right into it!</h4>
                <h2 class="sub-heading">SO, What is a limit?</h2>
-               <h3 class="text-content">A limit is the value a function approaches as the variable of the function gets closer &amp; closer to a particular value.</h3>
+               <h3 class="text-content" style="padding-left: 0vw;">A limit is the value a function approaches as the variable of the function gets closer &amp; closer to a particular value.</h3>
                <h2 class="sub-sub-heading">Limit Notation:</h2>
                <h5 class="pre-req">Note:<br>Notice how the word "approaches" is used.<br>This means that f(c) does not have to equal L.<br>It just has to approach L from <a class="notebook">both sides</a>.</h5>
-               <h3 class="text-content">We write <!--insert image/math font--> if the value &#402;(x) approaches L as x approaches c.</h3>
+               <h3 class="text-content">We write <!--insert image/math font--> if the value \(f(x)\) approaches L as x approaches c.</h3>
                <h2 class="sub-sub-heading">One-Sided &amp; Two-Sided Limits</h2>
-               <h3 class="text-content">lim<sub>x→2</sub> &#402;(x)<!--insert lim as x approaches 2--> is the number that &#402;(x) approaches as x approaches 2 from <u>both sides</u>.</h3>
+               <h3 class="text-content">\(\lim_{{x \to 2}} f(x)\) is the number that \(f(x)\) approaches as x approaches 2 from <u>both sides</u>.</h3>
                <!--insert graph-->
-               <h3 class="text-content">here, lim<sub>x→2</sub> &#402;(x) = L<sub>1</sub><!--lim f(x) as x approaches 2 = L1--><br>This is a two-sided limit (aka the general limit)</h3>
-               <h3 class="text-content">lim<sub>x→2<sup>+</sup></sub> &#402;(x)<!--lim as x approaches 2+--> is the number that &#402;(x) approaches as x approaches 2 only with values greater than 2.</h3>
-               <h3 class="text-content">&#8618; this is called a right-hand limit.</h3>
-               <h3 class="text-content">lim<sub>x→2<sup>-</sup></sub> &#402;(x)<!--lim as x approaches 2---> is the number that &#402;(x) approaches as x approaches 2 only with values less than 2.</h3>
-               <h3 class="text-content">&#8618; this is called a left-hand limit.</h3>
-               <!--insert graph--><h3 class="text-content">lim<sub>x→2<sup>+</sup></sub> &#402;(x) = L<sub>2</sub>
-               <br>lim<sub>x→2<sup>-</sup></sub> &#402;(x) = L<sub>3</sub></h3>
+               <h3 class="text-content">here, \(\lim_{{x \to 2}} f(x) = L_1\)<br>This is a two-sided limit (aka the general limit)</h3>
+               <h3 class="text-content">\(\lim_{{x \to 2^+}} f(x)\) is the number that \(f(x)\) approaches as x approaches 2 only with values greater than 2.</h3>
+               <h3 class="text-content">\(\rightarrow\) this is called a right-hand limit.</h3>
+               <h3 class="text-content">\(\lim_{{x \to 2^-}} f(x)\) is the number that \(f(x)\) approaches as x approaches 2 only with values less than 2.</h3>
+               <h3 class="text-content">\(\rightarrow\) this is called a left-hand limit.</h3>
+               <!--insert graph--><h3 class="text-content">\(\lim_{{x \to 2^+}} f(x) = L_2\) <br> \(\lim_{{x \to 2^-}} f(x) = L_3\)
                <h2 class="sub-sub-heading">Problems:</h2>
                <h5 class="pre-req">Note:<br>always use brackets when the function has multiple terms.<br>Afterall, we are taking the limit of the whole thing,<br>not just the first term.</h5>
                <h3 class="text-content"><ol>
-                  <li>Find lim<sub>x→6</sub> x<sup>3</sup></li>
-                  <li>Find lim<sub>x→2</sub> x<sup>2</sup></li>
-                  <li>Find lim<sub>x→0</sub> (x<sup>2</sup> + 6x + 5)</li>
+                  <li>Find \(\lim_{{x \to 6}} x^3\)</li>
+                  <li>Find \(\lim_{{x \to 2}} x^2\)</li>
+                  <li>Find \(\lim_{{x \to 0}} (x^2 + 6x + 5)\)</li>
                </ol></h3>
+               <h2 class="sub-heading">Estimating Limit Values</h2>
+               <h2 class="sub-sub-heading">Estimating Limit Values from Graphs</h2>
+               <h2 class="sub-sub-heading">Estimating Limit Values from Tables</h2>
+               <h2 class="sub-heading">Algebraic Properties of Limits</h2>
+               <h3 class="text-content" style="padding-left: 2.5vw;">Assuming that the limits exist, <ol style="padding-left: 3vw;">
+                  <li>if \(b\) is a constant, then \(\lim_{{x \to c}}(bf(x)) = b(\lim_{{x \to c}}f(x))\)</li>
+                  <li>\(\lim_{{x \to c}}(f(x) + g(x)) = \lim_{{x \to c}}f(x) + \lim_{{x \to c}}g(x)\)</li>
+                  <li>\(\lim_{{x \to c}}(f(x)g(x)) = (\lim_{{x \to c}}f(x))(\lim_{{x \to c}}g(x))\)</li>
+                  <li>\(\lim_{{x \to c}} \frac{f(x)}{g(x)} = \frac{\lim_{{x \to c}} f(x)}{\lim_{{x \to c}} g(x)}\), provided \(\lim_{{x \to c}} g(x) \neq 0\)</li>
+                  <li>For any constant k, \(\lim_{{x \to c}} k = k\)</li>
+                  <li>\(\lim_{{x \to c}} x = c\)</li>
+                  <li>\(\lim_{{x \to c}} f(g(x)) = f(\lim_ {{x \to c}} g(x))\)</li>
+               </ol>
+               </h3>
+               <h2 class="sub-heading">Algebraic Manipulation to Solve for Limits</h2>
+               <h2 class="sub-sub-heading">SO, When does the limit not exist?</h2>
+               <h2 class="sub-heading">Squeeze Theorem</h2>
+               <h2 class="sub-heading">Continuity</h2>
+               <h2 class="sub-sub-heading">Types of Discontinuity</h2>
+               <h2 class="sub-sub-heading">Defining Continuity</h2>
+               <h2 class="sub-sub-heading">Removing Discontinuity</h2>
+               <h2 class="sub-heading">Limits and Asymptotes</h2>
+               <h2 class="sub-sub-heading">Infinite Limits & Vertical Asymptotes</h2>
+               <h2 class="sub-sub-heading">Infinite Limits & Horizontal Asymptotes</h2>
+               <h2 class="sub-heading">Intermediate Value Theorem</h2>
             </div>
          </div>
          <footer id="footer" class="footer-calc">
