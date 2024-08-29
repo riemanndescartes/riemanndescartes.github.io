@@ -80,13 +80,23 @@
                </h3>
                <h2 class="sub-heading">Algebraic Manipulation to Solve for Limits</h2>
                <h3 class="text-content">Sometimes we can use algebra to simplify a limit & arrive at a finite answer.</h3>
-               <h3 class="text-content"><strong>Example:</strong> Solve for \(\lim_{{x \to 2}} \frac{x^2 + x - 6}{x^2 - 4}\)</h3>
-               <h3 class="text-content">By using direct substitution, we get, 
-                  <br>\(\lim_{{x \to 2}} \frac{x^2 + x - 6}{x^2 - 4} = \frac{2^2 + 2 - 6}{2^2 - 4} = \frac{0}{0} = DNE\) 
-                  <br>BUT if we simplify the expression first, we get, 
-                  <br>\(\lim_{{x \to 2}} \frac{x^2 + x - 6}{x^2 - 4} \) \(= \lim_{{x \to 2}} \frac{(x + 3)\cancel{(x - 2)}}{(x + 2)\cancel{(x - 2)}} = \lim_{x \to 2} \frac{x + 3}{x + 2} = \frac{2 + 3}{2 + 2} = \frac{5}{4}\)
-                  <br> & viola! <i>the limit <u>does</u> exist!!</i></h3>
+               <h3 class="text-content">Example 1: Solve for \(\lim_{{x \to 2}} \frac{x^2 + x - 6}{x^2 - 4}\)</h3>
+               <h5 class="pre-req">Note:<br>You can also use <a class="notebook">L'Hopital's Rule</a> (Unit 4) to solve these problems</h5>
+               <h3 class="text-content" style="padding-left: 5vw;">By using direct substitution, we get, </h3>
+               <h3 class="text-content" style="padding-left: 6.5vw;">\(\lim_{{x \to 2}} \frac{x^2 + x - 6}{x^2 - 4} = \frac{2^2 + 2 - 6}{2^2 - 4} = \frac{0}{0} = DNE\) </h3>
+               <h3 class="text-content" style="padding-left: 5vw;">BUT if we simplify the expression first, we get, </h3>
+               <h3 class="text-content" style="padding-left: 6.5vw;">\(\lim_{{x \to 2}} \frac{x^2 + x - 6}{x^2 - 4} \) \(= \lim_{{x \to 2}} \frac{(x + 3)\cancel{(x - 2)}}{(x + 2)\cancel{(x - 2)}} = \lim_{x \to 2} \frac{x + 3}{x + 2} = \frac{2 + 3}{2 + 2} = \frac{5}{4}\)</h3>
+               <h3 class="text-content">Unfortunately, factoring isn't always the option. Let us explore an even more intuitive method.</h3>
+               <h3 class="text-content">Example 2: \(\lim_{x \to \infty} \frac{3x + 7}{7x - 3}\)</h3>
+               <h3 class="text-content" style="padding-left: 5vw;">By directly substituting, we would get, </h3>
+               <h3 class="text-content" style="padding-left: 6.5vw;">\(\lim_{x \to \infty} \frac{3x + 7}{7x - 3} = \frac{\infty}{\infty}\), which is not correct.</h3>
+               <h3 class="text-content" style="padding-left: 5vw;">Instead, we could divide numerator and denominator by the same value/variable.</h3>
+               <h3 class="text-content" style="padding-left: 6.5vw;">\(\lim_{x \to \infty} \frac{3x + 7}{7x - 3} = \lim_{x \to \infty} \frac{\frac{3x}{x} + \frac{7}{x}}{\frac{7x}{x} - \frac{3}{x}} = \lim_{x \to \infty} \frac{3 + \frac{7}{x}}{7 - \frac{3}{x}} = \frac{3 + \frac{7}{\infty}}{7 - \frac{3}{\infty}} = \frac{3}{7}\)</h3>
+               <h4 class="tangent" style="padding-left: 10vw;"> & viola! the limit <u>does</u> exist!!</h4>
                <h2 class="sub-sub-heading">SO, When does the limit not exist?</h2>
+               <h3 class="text-content">Literally when there is no value L such that \(\lim_{x \to c} f(x) = L\), we say that \(\lim_{x \to c} f(x)\) does not exist.</h3>
+               <h5 class="pre-req">Pro-Tip: <br>for a general limit always double-check that the left-hand limit <br>and right-hand limit agree. <i>ALWAYS!!</i></h5>
+               <h3 class="text-content" style="padding-left: 6.5vw;">i.e., when the right-hand limit \(\neq\) the left-hand limit</h3>
                <h2 class="sub-heading">Squeeze Theorem</h2>
                <h2 class="sub-heading">Continuity</h2>
                <h2 class="sub-sub-heading">Types of Discontinuity</h2>
