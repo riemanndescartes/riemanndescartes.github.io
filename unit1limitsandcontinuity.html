@@ -43,11 +43,12 @@
                 <!--insert image; square shaped--> For the graph to the left,<br>As \(x \to +\infty\), \(y \to +\infty\)<br>&amp; as \(x \to -\infty\), \(y \to -\infty\)<br>
                 This is actually a limit!<br>Let's see how it is written in <a class="notebook">limit notation</a>!</h5>
                <h4 class="tangent">I know your excited! So let's get right into it!</h4>
+               <!--WHAT IS A LIMIT-->
                <h2 class="sub-heading">SO, What is a limit?</h2>
                <h3 class="text-content" style="padding-left: 0vw;">A limit is the value a function approaches as the variable of the function gets closer &amp; closer to a particular value.</h3>
                <h2 class="sub-sub-heading">Limit Notation:</h2>
                <h5 class="pre-req">Note:<br>Notice how the word "approaches" is used.<br>This means that f(c) does not have to equal L.<br>It just has to approach L from <a class="notebook">both sides</a>.</h5>
-               <h3 class="text-content">We write <!--insert image/math font--> if the value \(f(x)\) approaches L as x approaches c.</h3>
+               <h3 class="text-content">We write \(\lim_{x \to c} f(x) = L\) if \(f(x)\) <i>approaches</i> L as x <i>approaches</i> c.</h3>
                <h2 class="sub-sub-heading">One-Sided &amp; Two-Sided Limits</h2>
                <h3 class="text-content">\(\lim_{{x \to 2}} f(x)\) is the number that \(f(x)\) approaches as x approaches 2 from <u>both sides</u>.</h3>
                <!--insert graph-->
@@ -64,9 +65,11 @@
                   <li>Find \(\lim_{{x \to 2}} x^2\)</li>
                   <li>Find \(\lim_{{x \to 0}} (x^2 + 6x + 5)\)</li>
                </ol></h3>
+               <!--ESTIMATING LIMITS-->
                <h2 class="sub-heading">Estimating Limit Values</h2>
                <h2 class="sub-sub-heading">Estimating Limit Values from Graphs</h2>
                <h2 class="sub-sub-heading">Estimating Limit Values from Tables</h2>
+               <!--ALGEBRAIC PROPERTIES OF LIMITS-->
                <h2 class="sub-heading">Algebraic Properties of Limits</h2>
                <h3 class="text-content" style="padding-left: 2.5vw;">Assuming that the limits exist, <ol style="padding-left: 3vw;">
                   <li>if \(b\) is a constant, then \(\lim_{{x \to c}}(bf(x)) = b(\lim_{{x \to c}}f(x))\)</li>
@@ -78,6 +81,7 @@
                   <li>\(\lim_{{x \to c}} f(g(x)) = f(\lim_ {{x \to c}} g(x))\)</li>
                </ol>
                </h3>
+               <!--ALGEBRAIC MANIPULATION TO SOLVE FOR LIMITS-->
                <h2 class="sub-heading">Algebraic Manipulation to Solve for Limits</h2>
                <h3 class="text-content">Sometimes we can use algebra to simplify a limit & arrive at a finite answer.</h3>
                <h3 class="text-content">Example 1: Solve for \(\lim_{{x \to 2}} \frac{x^2 + x - 6}{x^2 - 4}\)</h3>
@@ -87,7 +91,7 @@
                <h3 class="text-content" style="padding-left: 5vw;">BUT if we simplify the expression first, we get, </h3>
                <h3 class="text-content" style="padding-left: 6.5vw;">\(\lim_{{x \to 2}} \frac{x^2 + x - 6}{x^2 - 4} \) \(= \lim_{{x \to 2}} \frac{(x + 3)\cancel{(x - 2)}}{(x + 2)\cancel{(x - 2)}} = \lim_{x \to 2} \frac{x + 3}{x + 2} = \frac{2 + 3}{2 + 2} = \frac{5}{4}\)</h3>
                <h3 class="text-content">Unfortunately, factoring isn't always the option. Let us explore an even more intuitive method.</h3>
-               <h3 class="text-content">Example 2: \(\lim_{x \to \infty} \frac{3x + 7}{7x - 3}\)</h3>
+               <h3 class="text-content">Example 2: Solve for \(\lim_{x \to \infty} \frac{3x + 7}{7x - 3}\)</h3>
                <h3 class="text-content" style="padding-left: 5vw;">By directly substituting, we would get, </h3>
                <h3 class="text-content" style="padding-left: 6.5vw;">\(\lim_{x \to \infty} \frac{3x + 7}{7x - 3} = \frac{\infty}{\infty}\), which is not correct.</h3>
                <h3 class="text-content" style="padding-left: 5vw;">Instead, we could divide numerator and denominator by the same value/variable.</h3>
@@ -97,14 +101,41 @@
                <h3 class="text-content">Literally when there is no value L such that \(\lim_{x \to c} f(x) = L\), we say that \(\lim_{x \to c} f(x)\) does not exist.</h3>
                <h5 class="pre-req">Pro-Tip: <br>for a general limit always double-check that the left-hand limit <br>and right-hand limit agree. <i>ALWAYS!!</i></h5>
                <h3 class="text-content" style="padding-left: 6.5vw;">i.e., when the right-hand limit \(\neq\) the left-hand limit</h3>
+               <!--SQUEEZE THEOREM-->
                <h2 class="sub-heading">Squeeze Theorem</h2>
+               <h3 class="text-content">Algebraic Manipulation doesn't always help us solve a limit. <br>Another tool that we could use to solve for limits is the Squeeze Theorem.</h3>
+               <h3 class="text-content" style="margin-left: 5vw; padding-left: 0.5vw; border-left-style: solid;">Take the three functions \(g(x), f(x)\) and \(h(x)\), for example.
+                  <br>If \(g(x) \leq f(x) \leq h(x)\) for a certain interval that contains c, \(\lim_{x \to c} g(x) = L\), and \(\lim_{x \to c} h(x) = L\)
+                  <br>then the Squeeze Theorem guarantees that \(\lim_{x \to c} f(x) = L\) </h3>
+               <h3 class="text-content">Example 3: INSERT SUITABLE EXAMPLE</h3>
+               <h5 class="pre-req">AP CALC AB Must Knows: 
+                  <br>\(\lim_{x \to 0} \frac{\sin x}{x} = 1\)
+                  <br>\(\lim_{x \to 0} \frac{\sin ax}{x} = a\)
+                  <br>\(\lim_{x \to 0} \frac{\sin ax}{\sin bx} = \frac{a}{b}\)</h5>
+               <!--CONTINUITY-->
                <h2 class="sub-heading">Continuity</h2>
                <h2 class="sub-sub-heading">Types of Discontinuity</h2>
+               <h3 class="text-content">A jump discontinuity occurs when the curve breaks and starts somewhere else. The left-side limit and rigth-side limit will exist, but they will not equal each other.</h3>
+               <h3 class="text-content">An essential/infinite discontinuity occurs when the curve has a vertical asymptote.</h3>
+               <h3 class="text-content">A removable discontinuity occurs when the curve (otherwise continuous) has a "hole" in it. </h3>
+               <!--insert pictures of the 3 discontinuity-->
                <h2 class="sub-sub-heading">Defining Continuity</h2>
-               <h2 class="sub-sub-heading">Removing Discontinuity</h2>
+               <h3 class="text-content">Continuity is defined by the following mantra:</h3>
+               <h3 class="text-content">Continuity at a point:
+                  <br>The function \(f(x)\) is continuous at a point x = c if and only if:
+                     <br>Rule 1: \(f(c)\) exists
+                     <br>Rule 2: \(\lim_{x \to c} f(x)\) exists
+                        <br>i.e., \(\lim_{x \to c^+} f(x) = \lim_{x \to c^-} f(x)\)
+                     <br>Rule 3: \(\lim_{x \to c} f(x) = f(c)\)</h3>
+               <h3 class="text-content"> Continuity on an interval:
+                  <br>Function \(f\) is continuous on an interval of x-values IF and ONLY IF it is continuous at EACH and EVERY value of x on that interval.</h3>
+               <h3 class="text-content">For example, \(\sec x\) is not defined on \(x  = \pm \frac{\pi}{2}\). So this means \(\sec x\) is continuous on the interval \((-\frac{\pi}{2}, \frac{\pi}{2})\) and not on the interval \([-\frac{\pi}{2}, \frac{\pi}{2}]\).</h3>
+               <h2 class="sub-sub-heading">Removing Discontinuity</h2> <!--remove this? and add as one-liner under jump discontinuity??-->
+               <!--LIMITS AND ASYMPTOTES-->
                <h2 class="sub-heading">Limits and Asymptotes</h2>
                <h2 class="sub-sub-heading">Infinite Limits & Vertical Asymptotes</h2>
                <h2 class="sub-sub-heading">Infinite Limits & Horizontal Asymptotes</h2>
+               <!--INTERMEDIATE VALUE THEOREM-->
                <h2 class="sub-heading">Intermediate Value Theorem</h2>
             </div>
          </div>
