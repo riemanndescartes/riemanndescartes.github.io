@@ -1,1 +1,40 @@
-
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <title>Unit 6 - Integration</title>
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="./style.css" type="text/css" />
+        <link rel="stylesheet" href="./integration.css" type="text/css" />
+        <link rel="icon" sizes="64x64" href="./assets/icon.png" type="image/png" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Shadows Into Light" />
+        <script src="./main.js"></script>
+    </head>
+    <body>
+        <div id="page-container">
+            <header id="header">
+                <div class="menu">
+                  <a href="./index.html" class="style">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a href="./calculus.html" class="style">Calculus!</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a href="./formulas.html" class="style">Theorems + Formula</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a href="./about.html" class="style">About</a>
+                </div>
+                <div class="button">
+                  <button onclick="toggleDarkModeContent()">Toggle dark mode</button>
+                </div>
+            </header>
+             <div id="content-wrap" class="parent">
+            <!-- all other page content -->
+            <div id="side-bar" class="child">
+               <h1 class="side-bar-heading">Table of Contents</h1>
+               <h2 class="side-bar-topics"><a href="./unit1limitsandcontinuity.html">Unit 1: Limits and Continuity</a></h2>
+               <h2 class="side-bar-topics"><a href="./unit2thederivative.html">Unit 2: The Derivative</a></h2>
+               <h2 class="side-bar-topics">Unit 3: </h2>
+               <h2 class="side-bar-topics">Unit 4: Contextual Application of Differentiation</h2>
+               <h2 class="side-bar-topics">Unit 5: Analytical Application of Differentiation</h2>
+               <h2 class="side-bar-topics"><a href="./unit6integration.html">Unit 6: Integration</a></h2>
+               <h2 class="side-bar-topics">Unit 7: </h2>
+               <h2 class="side-bar-topics">Unit 8: Applications of Integration</h2>
+               <h2 class="side-bar-topics">Integration by Parts</h2>
+            </div>
+            <div id="content" class="child">
