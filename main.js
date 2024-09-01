@@ -26,7 +26,7 @@ function toggleDarkModeGeneral() {
     document.documentElement.classList.toggle('dark-scroll');
 
     var footer = document.getElementById("footer");
-    footer.classList.toggle("intromsg-dark");
+    footer.classList.toggle("footer-dark");
 }
 
 function toggleDarkModeHome() {

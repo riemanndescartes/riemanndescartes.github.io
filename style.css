@@ -120,7 +120,8 @@ body {
 #content {
     float: right;
     width: 72vw;
-    color: #CA6D68;
+    /*color: #CA6D68;*/
+    color: #182C2B;
 }
 
 .content-dark {
@@ -243,7 +244,7 @@ a.style:active {
     padding-left: 14vw;
 }
 .footer-dark {
-    color: #F1C1BD !important;
+    color: #f2ebd8 !important;
 }
 
 .end {
