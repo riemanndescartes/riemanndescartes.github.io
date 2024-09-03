@@ -45,7 +45,7 @@
                         <ol>
                             <h5 class="pre-req">Note: <br> \(\frac{dy}{dx}\) is the same as \(\frac{d}{dx}(f(x))\) where \(y = f(x)\).
                                 <br>So, \(\frac{dy}{dx}\) is essentially the same as \(f'(x)\) and is used interchangeably.</h5>
-                            <li>instanteneos velocity</li>
+                            <li>instantaneous velocity</li>
                             <li>rate of change</li>
                             <li>average speed</li>
                             <li>slope of a curve at a particular point</li>
@@ -73,10 +73,10 @@
                     <h5 class="pre-req">Can \(x\) be negative? Yes, it can!!! This is because x is the position of the particle in some space, not the distance. 
                         <br>If it were distance, then it cannot be negative.</h5>
                     <h3 class="text-content">\(x(2) = 2^4 - 2^3 + 19 = 27\)
-                        <h5 class="pre-req">Note: <br>\(v(2)\) can also be denoted as \(\frac{dx}{dt}|_{t=2}\)</h5>
                         <br>\(v(2) = 4(2)^3 - 3(2)^2 = 20\)
                         <br>\(a(2) = 12(2)^2 - 6(2) = 36\)
                     </h3>
+                    <h5 class="pre-req">Note: <br>\(v(2)\) can also be denoted as \(\frac{dx}{dt}|_{t=2}\)</h5>
                     <h3 class="text-content">So, What does this mean?</h3>
                     <h3 class="text-content">Since x is positive, we can assume that, relative to some object, the car is in the supposed positive direction (we get to choose what we define as positive direction).
                         <br>Since velocity AND position are positive, the car will continue to travel in the positive direction at t = 2 seconds.
@@ -104,9 +104,66 @@
                     <h3 class="text-content">Just as the name sounds, related rates is the rate of change of A with respect to something that is somehow related to the rate of change of B. 
                         <br>(Chain rule + Implicit Differentiation is everyone's best friend in related rates).
                     </h3>
-                    
+                    <h3 class="text-content">Example 1: A spherical snowball is melting. Its radius decreases at a constant rate of 2cm/minute from an initial value of 70cm. How fast is the volume of the snowball decreasing in half an hour.</h3>
+                    <h3 class="text-content">The question tells us that \(\frac{dr}{dt} = -2\)cm/min and that \(r_i = 70\)cm. "Volume of the snowball decreasing" is the same thing as \(\frac{dV}{dt}\)</h3>
+                    <h3 class="text-content">We have \(\frac{dr}{dt}\), but we need \(\frac{dV}{dt}\).</h3>
+                    <h3 class="text-content">SO we asks ourselves,</h3>
+                    <h3 class="text-content">"What is the relationship between the radius (r) and volume (V) of the sphere?"</h3>
+                    <h3 class="text-content">(cause spherical snow ball = sphere)</h3>
+                    <h3 class="text-content">OH! \(V = \frac{4}{3}\pi r^3\)</h3>
+                    <h3 class="text-content">Genius!!! But we need \(\frac{dV}{dt}\)... hmm...</h3>
+                    <h3 class="text-content">OHHHH! We take the derivative of V in terms of t. We get,</h3>
+                    <h3 class="text-content">\(\frac{dV}{dt} = 4\pi r^2\frac{dr}{dt}\)</h3>
+                    <h3 class="text-content">But we are not done yet. We need to find out what the volume is in 30 minutes.
+                        <br>At the start r = 70 cm and it decreases at 2 cm per minute
+                    </h3>
+                    <h3 class="text-content">So, \(r(t) = 70 - 2t\)
+                        <br>Then in 30mins, \(r(30) = 70 - 2(30) = 10\) cm
+                        <br>So \(\frac{dV}{dt}|_{t=30} = 4\pi(r(30))^2\frac{dr}{dt}|_{t=30} = 4\pi(10)^2(-2) = -800\pi\) cm<sup>3</sup>/min
+                    </h3>
+                    <h3 class="text-content">Example 2: A 26 foot ladder stands against a high wall. If the foot of the ladder is sliding away at 15 ft/sec, how fast is the top of the ladder sliding down the wall when the top of the ladder in 10 ft from the ground?</h3>
+                    <!--Insert diagram--><h3 class="text-content">"What is the relationship between x and y?
+                        <br>Oh!! The pythagoren Theorem!!!
+                    </h3>
+                    <h3 class="text-content">So, \(x^2 + y^2 = 26^2\)</h3>
+                    <h3 class="text-content">As always, take the derivative in terms of time (here you take the derivative implicitly)</h3>
+                    <h3 class="text-content">\(2x\cdot\frac{dx}{dt} + 2y\cdot\frac{dy}{dt} = 0\)</h3>
+                    <h3 class="text-content">We know that \(\frac{dx}{dt} = 15\) ft/sec. We want \(\frac{dy}{dt}\) when \(y = 10\) ft.</h3>
+                    <h3 class="text-content">We'll also need to know the value of \(x\) when \(y = 10\). To this we'll use the pythagorean theorem!</h3>
+                    <h3 class="text-content">\(x^2 + y^2 = 26^2\)
+                        <br>\(x^2 + 10^2 = 26^2\)
+                        <br>So, x = 24
+                    </h3>
+                    <h3 class="text-content">Now, we can plug all the values into \(2x\cdot\frac{dx}{dt} + 2y\cdot\frac{dy}{dt} = 0\)</h3>
+                    <h5 class="pre-req">Why is \(\frac{dy}{dt}\) negative?<br>This is because y decreases in value as the time increase.</h5>   
+                    <h3 class="text-content">\(2(24)(15) + 2(10)\frac{dy}{dt} = 0\)
+                        <br>\(\frac{dy}{dt} = \frac{-2(24)(15)}{2(10)} = -36\) ft/sec
+                    </h3>
+                    <h2 class="sub-sub-heading">Try it out:</h2>
+                    <h3 class="text-content"><ol><li>A balloon is expanding at \(20\pi\) in<sup>3</sup>/sec. How fast is the SA of the balloon expanding when the balloon has a radius of 4 inches.</li></ol></h3>
                     <!--L'HOPITAL'S-->
-                    <h2 class="sub-heading">L'Hopital's</h2>
+                    <h2 class="sub-heading">L'Hopital's Rule</h2>
+                    <h3 class="text-content">L'Hopital's Rule (pronounced: <i>lo-pi-tals</i>) is another tool that can be used to solve certain special limits.
+                        <br>So, When can you use L'Hopital's rule?? When a limit is in indeterminate form.
+                    </h3>
+                    <h3 class="text-content">If \(\frac{f(c)}{g(c)}\) is in indeterminate form, \(f'(c)\) & \(g'(c)\) exists, and \(g'(c) \neq 0\)
+                        <br>Then, \(\lim_{x \to c} \frac{f(x)}{g(x)} = \lim_{x \to c} \frac{f'(x)}{g'(x)}\)
+                    </h3>
+                    <h5 class="pre-req">Indeterminate Form (def.): <br>Anything that can't be defined by <br>maths is called an indeterminate form. <br>Example: \(\frac{0}{0}, \frac{\infty}{\infty}, \frac{-\infty}{-\infty}\), etc</h5>
+                    <h3 class="text-content">Example: What does \(\lim_{x \to 0} \frac{\sin x}{x}\) evaluate to?</h3>
+                    <h5 class="tangent">By direct substitution, we get: \(\frac{\sin 0}{0} = \frac{0}{0}\) <br>... this is in indeterminate form. SO we use L'Hopital's Rule!</h5>
+                    <h3 class="text-content">\(\lim_{x \to 0} \frac{\sin x}{x} = \lim_{x \to 0} \frac{\cos x}{1} = \cos 0 = 1\)</h3>
+                    <h3 class="text-content">Example: What does \(\lim_{x \to \frac{\pi}{2}} \frac{\sec x}{1 + \sec x}\) evaluate to?</h3>
+                    <h5 class="tangent">\(\lim_{x \to \frac{\pi}{2}} \frac{\sec x}{1 + \sec x} = \frac{\sec \frac{\pi}{2}}{1 + \sec \frac{\pi}{2}} = \frac{\frac{1}{0}}{1 + \frac{1}{0}} = \frac{\infty}{\infty} =\) indeterminate form! Therefore, L'Hopital's Rule.</h5>
+                    <h3 class="text-content">\(\lim_{x \to \frac{\pi}{2}} \frac{\sec x}{1 + \sec x} = \lim_{x \to \frac{\pi}{2}} \frac{\sec x \tan x}{\sec x \tan x} = \lim_{x \to \frac{\pi}{2}} 1 = 1\)</h3>
+                    <h2 class="sub-sub-heading">Try it out:</h2>
+                    <h3 class="text-content">
+                        <ol>
+                            <li>\(\lim_{x \to \infty} \frac{x^5}{e^{5x}}\)</li>
+                            <li>\(\lim_{x \to 0} \frac{e^{3x} - e^x}{x}\)</li>
+                            <li>\(\lim_{x \to 0} \frac{e^{3x} - e^x}{e^x}\)</li>
+                        </ol>
+                    </h3>
                 </div>
             </div>
             <footer id="footer" class="footer-calc">
