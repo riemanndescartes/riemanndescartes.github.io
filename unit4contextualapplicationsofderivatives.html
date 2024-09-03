@@ -1,3 +1,6 @@
+<!--TO-DO: 
+   Format & Style
+   Picture for Example 2 under Related Rates-->
 <!DOCTYPE html> <!--this node tells browser to use standard mode-->
 <html lang="en-US">
     <head>
@@ -42,7 +45,7 @@
                     <!--DERIVATIVES IN CONTEXT-->
                     <h2 class="sub-heading">Derivatives in Context</h2>
                     <h3 class="text-content">The derivative can help us find the
-                        <ol>
+                        <ol style="padding-left: 3.5vw;">
                             <h5 class="pre-req">Note: <br> \(\frac{dy}{dx}\) is the same as \(\frac{d}{dx}(f(x))\) where \(y = f(x)\).
                                 <br>So, \(\frac{dy}{dx}\) is essentially the same as \(f'(x)\) and is used interchangeably.</h5>
                             <li>instantaneous velocity</li>
@@ -52,91 +55,91 @@
                         </ol>
                     </h3>
                     <h3 class="text-content">To be specific, the derivative (often notated as \(\frac{dy}{dx}\)) denotes the value produced when an infinitesimally small change in y is divided by an infinitesimally small change in x. </h3>
-                    <h3 class="text-content">Through this notation, we can think of derivatives as the rate of change over a very very small interval.</h3>
-                    <h3 class="text-content">On the other hand, the notation \(f'(x)\) can be thought of as the derivative without thinking of it as a slope (rate of change).</h3>
+                    <h3 class="text-content">Through this notation, we can think of derivatives as the rate of change over a very very small interval. On the other hand, the notation \(f'(x)\) can be thought of as the derivative without thinking of it as a slope (rate of change).</h3>
                     <!--POSITION, VELOCITY, ACCELERATION-->
                     <h2 class="sub-heading">Position, Velocity, Acceleration</h2>
-                    <h3 class="text-content">Suppose \(x(t)\) is a function that gives you the position of a particle with respect to time.
-                        <br>Then the derivative of \(x(t)\) with respect to time is the velocity (or (\v(t)\)).
+                    <h3 class="text-content">Suppose \(x(t)\) is a function that gives you the position of a particle with respect to time.</h3>
+                    <h3 class="text-content" style="padding-left: 5vw;">Then the derivative of \(x(t)\) with respect to time is the velocity (or \(v(t)\)).
                         <br>Then the second derivative of \(x(t)\) with respect to time is the acceleration (or \(v(t)\)).
                     </h3>
-                    <h3 class="text-content">Position: \(x(t)\)
+                    <h3 class="text-content" style='padding-left: 15vw;'>Position: \(x(t)\)
                         <br>Velocity: \(v(t) = x'(t)\) or \(\frac{dx}{dt}\)
                         <br>Acceleration = \(a(t) = v'(t)\) or \(\frac{dv}{dt} = x''(t)\) or \(\frac{d^2x}{dt^2}\)
                     </h3>
                     <h3 class="text-content">Example: The position of a car at time t is given by the equation \(x(t) = t^4 - t^3 + 19\). Find the position, velocity and acceleration at t = 2 seconds.</h3>
-                    <h3 class="text-content">\(x(t) = t^4 - t^3 + 19\)
+                    <h3 class="text-content" style="padding-left: 10vw;">\(x(t) = t^4 - t^3 + 19\)
                         <br>\(v(t) = \frac{dx}{dt} = 4t^3 - 3t^2\)
                         <br>\(a(t) = \frac{dv}{dt} = 12t^2 - 6t\)
                     </h3>
-                    <h3 class="text-content">At t = 2 seconds,</h3>
-                    <h5 class="pre-req">Can \(x\) be negative? Yes, it can!!! This is because x is the position of the particle in some space, not the distance. 
+                    <h3 class="text-content" style="padding-left: 6.5vw;">At t = 2 seconds,</h3>
+                    <h5 class="pre-req">Can \(x\) be negative? <br>Yes, it can!!! This is because x is the position <br>of the particle in some space, not the distance. 
                         <br>If it were distance, then it cannot be negative.</h5>
-                    <h3 class="text-content">\(x(2) = 2^4 - 2^3 + 19 = 27\)
+                    <h3 class="text-content" style="padding-left: 10vw;">\(x(2) = 2^4 - 2^3 + 19 = 27\)
                         <br>\(v(2) = 4(2)^3 - 3(2)^2 = 20\)
                         <br>\(a(2) = 12(2)^2 - 6(2) = 36\)
                     </h3>
                     <h5 class="pre-req">Note: <br>\(v(2)\) can also be denoted as \(\frac{dx}{dt}|_{t=2}\)</h5>
-                    <h3 class="text-content">So, What does this mean?</h3>
-                    <h3 class="text-content">Since x is positive, we can assume that, relative to some object, the car is in the supposed positive direction (we get to choose what we define as positive direction).
-                        <br>Since velocity AND position are positive, the car will continue to travel in the positive direction at t = 2 seconds.
-                        <br>Since both velocity AND acceleration are positive, the car is speeding up at t = 2 seconds.
+                    <h3 class="text-content" style="padding-left: 6.5vw;">So, What does this mean?</h3>
+                    <h3 class="text-content">
+                        <ul style="padding-left: 5vw;">
+                            <li>Since x is positive, we can assume that, relative to some object, the car is in the supposed positive direction (we get to choose what we define as positive direction).</li>
+                            <li>Since velocity AND position are positive, the car will continue to travel in the positive direction at t = 2 seconds.</li>
+                            <li>Since both velocity AND acceleration are positive, the car is speeding up at t = 2 seconds.</li>
+                        </ul>
                     </h3>
-                    <h3 class="text-content">Try it yourself:
-                        <br>The position of a bee is given by the function \(x(t) = \sin(2t)\). Find the velocity and acceleration of the bee at t = 5 seconds. Is the bee speeding up or slowing down?</h3>
-                    </h3>
+                    <h2 class="sub-sub-heading">Try it yourself:</h2>
+                    <h3 class="text-content"><ol><li>The position of a bee is given by the function \(x(t) = \sin(2t)\). Find the velocity and acceleration of the bee at t = 5 seconds. Is the bee speeding up or slowing down?</li></ol></h3>
                     <h2 class="sub-sub-heading">BUT GUESS WHAT, DERIVATIVES ARE ALSO USEFUL IN CONTEXTS OUTSIDE OF MOTION!</h2>
                     <h3 class="text-content">Example: At a given moment t, a family of bacteria has a population of \(B = 17t - 3^t\). After how many hours will the basteria stop reproducing?</h3>
-                    <h3 class="text-content">\(B = 17t - 3^t\)
+                    <h3 class="text-content" style="padding-left: 10vw;">\(B = 17t - 3^t\)
                         <br>\(\frac{dB}{dt} = 17 - (\ln(3))3^t\)
                     </h3>
-                    <h3 class="text-content">When \(\frac{dB}{dt} = 0\), the family of bacterias will stop reproducing.</h3>
-                    <h5 class="pre-req">Note: <br>Always show three decimal places on you final answer!! Round you answer ONLY on the final step!!</h5>
-                    <h3 class="text-content">\(0 = 17 - 3^t\ln(3)\)
-                        <br>\(17 = 3^t\ln(3)\)
-                        <br>\(3^t = \frac{17}{\ln(3)}\)
-                        <br>\(t = \log_3(\frac{17}{\ln(3)})\) = 2.493 hours
-                    </h3>
+                    <h3 class="text-content" style="padding-left: 6.5vw;">When \(\frac{dB}{dt} = 0\), the family of bacterias will stop reproducing.</h3>
+                    <h3 class="text-content" style="padding-left: 10vw;">\(0 = 17 - 3^t\ln(3)\)
+                        <br>\(17 = 3^t\ln(3)\)</h3>
+                    <h5 class="pre-req">Note: <br>Always show three decimal places on you final answer!! <br>Round you answer ONLY on the final step!!</h5>
+                    <h3 class="text-content" style="padding-left: 10vw;">\(3^t = \frac{17}{\ln(3)}\)
+                        <br>\(t = \log_3(\frac{17}{\ln(3)})\) = 2.493 hours</h3>
                     <!--RELATED RATES-->
                     <h2 class="sub-heading">Related Rates</h2>
                     <h3 class="text-content">What does related rates mean?</h3>
                     <h5 class="pre-req">Personally, the definition is not important.<br>Conceptual understanding, though, is ABSOLUTELY ESSENTIAL.</h5>
-                    <h3 class="text-content">Just as the name sounds, related rates is the rate of change of A with respect to something that is somehow related to the rate of change of B. 
+                    <h3 class="text-content" style="padding-left: 4.5vw;">Just as the name sounds, related rates is the rate of change of A with respect to something that is somehow related to the rate of change of B. 
                         <br>(Chain rule + Implicit Differentiation is everyone's best friend in related rates).
                     </h3>
                     <h3 class="text-content">Example 1: A spherical snowball is melting. Its radius decreases at a constant rate of 2cm/minute from an initial value of 70cm. How fast is the volume of the snowball decreasing in half an hour.</h3>
-                    <h3 class="text-content">The question tells us that \(\frac{dr}{dt} = -2\)cm/min and that \(r_i = 70\)cm. "Volume of the snowball decreasing" is the same thing as \(\frac{dV}{dt}\)</h3>
-                    <h3 class="text-content">We have \(\frac{dr}{dt}\), but we need \(\frac{dV}{dt}\).</h3>
-                    <h3 class="text-content">SO we asks ourselves,</h3>
-                    <h3 class="text-content">"What is the relationship between the radius (r) and volume (V) of the sphere?"</h3>
-                    <h3 class="text-content">(cause spherical snow ball = sphere)</h3>
-                    <h3 class="text-content">OH! \(V = \frac{4}{3}\pi r^3\)</h3>
-                    <h3 class="text-content">Genius!!! But we need \(\frac{dV}{dt}\)... hmm...</h3>
-                    <h3 class="text-content">OHHHH! We take the derivative of V in terms of t. We get,</h3>
-                    <h3 class="text-content">\(\frac{dV}{dt} = 4\pi r^2\frac{dr}{dt}\)</h3>
-                    <h3 class="text-content">But we are not done yet. We need to find out what the volume is in 30 minutes.
+                    <h3 class="text-content" style="padding-left: 5vw;">The question tells us that \(\frac{dr}{dt} = -2\)cm/min and that \(r_i = 70\)cm. 
+                        <br>"Volume of the snowball decreasing" is the same thing as \(\frac{dV}{dt}\), which we need to find.</h3>
+                    <h3 class="text-content" style="text-align: center;">We have \(\frac{dr}{dt}\), but we need \(\frac{dV}{dt}\).</h3>
+                    <h3 class="text-content" style="padding-left: 5vw;">SO we asks ourselves,</h3>
+                    <h3 class="text-content" style="text-align: center;">"What is the relationship between the radius (r) and volume (V) of the sphere?"</h3>
+                    <h3 class="text-content" style="text-align: right; padding-right: 4.5vw;">(cause spherical snow ball = sphere)</h3>
+                    <h3 class="text-content" style="padding-left: 15vw;">OH! \(V = \frac{4}{3}\pi r^3\)</h3>
+                    <h3 class="text-content" style="text-align: center; padding-right: 4.5vw;">Genius!!! But we need \(\frac{dV}{dt}\)... hmm...</h3>
+                    <h3 class="text-content" style="padding-left: 15vw;">OHHHH! We take the derivative of V in terms of t. We get,</h3>
+                    <h3 class="text-content" style="padding-left: 18vw;">\(\frac{dV}{dt} = 4\pi r^2\frac{dr}{dt}\)</h3>
+                    <h3 class="text-content" style="padding-left: 6.5vw;">But we are not done yet. We need to find out what the volume is in 30 minutes.
                         <br>At the start r = 70 cm and it decreases at 2 cm per minute
                     </h3>
-                    <h3 class="text-content">So, \(r(t) = 70 - 2t\)
+                    <h3 class="text-content" style="padding-left: 10vw;">So, \(r(t) = 70 - 2t\)
                         <br>Then in 30mins, \(r(30) = 70 - 2(30) = 10\) cm
                         <br>So \(\frac{dV}{dt}|_{t=30} = 4\pi(r(30))^2\frac{dr}{dt}|_{t=30} = 4\pi(10)^2(-2) = -800\pi\) cm<sup>3</sup>/min
                     </h3>
                     <h3 class="text-content">Example 2: A 26 foot ladder stands against a high wall. If the foot of the ladder is sliding away at 15 ft/sec, how fast is the top of the ladder sliding down the wall when the top of the ladder in 10 ft from the ground?</h3>
-                    <!--Insert diagram--><h3 class="text-content">"What is the relationship between x and y?
+                    <!--Insert diagram--><h3 class="text-content" style="text-align: center;">"What is the relationship between x and y?""
                         <br>Oh!! The pythagoren Theorem!!!
-                    </h3>
-                    <h3 class="text-content">So, \(x^2 + y^2 = 26^2\)</h3>
-                    <h3 class="text-content">As always, take the derivative in terms of time (here you take the derivative implicitly)</h3>
-                    <h3 class="text-content">\(2x\cdot\frac{dx}{dt} + 2y\cdot\frac{dy}{dt} = 0\)</h3>
-                    <h3 class="text-content">We know that \(\frac{dx}{dt} = 15\) ft/sec. We want \(\frac{dy}{dt}\) when \(y = 10\) ft.</h3>
-                    <h3 class="text-content">We'll also need to know the value of \(x\) when \(y = 10\). To this we'll use the pythagorean theorem!</h3>
-                    <h3 class="text-content">\(x^2 + y^2 = 26^2\)
+                        <br>So, \(x^2 + y^2 = 26^2\)</h3>
+                    <h3 class="text-content" style="padding-left: 6.5vw;">As always, take the derivative in terms of time (here you take the derivative implicitly)</h3>
+                    <h3 class="text-content" style="padding-left: 10vw;">\(2x\cdot\frac{dx}{dt} + 2y\cdot\frac{dy}{dt} = 0\)</h3>
+                    <h3 class="text-content" style="padding-left: 6.5vw;">We know that \(\frac{dx}{dt} = 15\) ft/sec. We want \(\frac{dy}{dt}\) when \(y = 10\) ft.
+                        <br>We'll also need to know the value of \(x\) when \(y = 10\). To do this we'll use the pythagorean theorem!</h3>
+                    <h3 class="text-content" style="padding-left: 10vw;">\(x^2 + y^2 = 26^2\)
                         <br>\(x^2 + 10^2 = 26^2\)
                         <br>So, x = 24
                     </h3>
-                    <h3 class="text-content">Now, we can plug all the values into \(2x\cdot\frac{dx}{dt} + 2y\cdot\frac{dy}{dt} = 0\)</h3>
+                    <h3 class="text-content" style="padding-left: 6.5vw;">Now, we can plug all the values into \(2x\cdot\frac{dx}{dt} + 2y\cdot\frac{dy}{dt} = 0\)</h3>
                     <h5 class="pre-req">Why is \(\frac{dy}{dt}\) negative?<br>This is because y decreases in value as the time increase.</h5>   
-                    <h3 class="text-content">\(2(24)(15) + 2(10)\frac{dy}{dt} = 0\)
+                    <h3 class="text-content" style="padding-left: 10vw;">\(2(24)(15) + 2(10)\frac{dy}{dt} = 0\)
                         <br>\(\frac{dy}{dt} = \frac{-2(24)(15)}{2(10)} = -36\) ft/sec
                     </h3>
                     <h2 class="sub-sub-heading">Try it out:</h2>
@@ -144,18 +147,18 @@
                     <!--L'HOPITAL'S-->
                     <h2 class="sub-heading">L'Hopital's Rule</h2>
                     <h3 class="text-content">L'Hopital's Rule (pronounced: <i>lo-pi-tals</i>) is another tool that can be used to solve certain special limits.
-                        <br>So, When can you use L'Hopital's rule?? When a limit is in indeterminate form.
+                        <br>So, When can you use L'Hopital's rule?? When a limit is in <a class="notebook">indeterminate form</a>.
                     </h3>
-                    <h3 class="text-content">If \(\frac{f(c)}{g(c)}\) is in indeterminate form, \(f'(c)\) & \(g'(c)\) exists, and \(g'(c) \neq 0\)
+                    <h3 class="text-content" style="margin-left: 5vw; padding-left: 0.5vw; border-left-style: solid;">If \(\frac{f(c)}{g(c)}\) is in indeterminate form, \(f'(c)\) & \(g'(c)\) exists, and \(g'(c) \neq 0\)
                         <br>Then, \(\lim_{x \to c} \frac{f(x)}{g(x)} = \lim_{x \to c} \frac{f'(x)}{g'(x)}\)
                     </h3>
                     <h5 class="pre-req">Indeterminate Form (def.): <br>Anything that can't be defined by <br>maths is called an indeterminate form. <br>Example: \(\frac{0}{0}, \frac{\infty}{\infty}, \frac{-\infty}{-\infty}\), etc</h5>
                     <h3 class="text-content">Example: What does \(\lim_{x \to 0} \frac{\sin x}{x}\) evaluate to?</h3>
-                    <h5 class="tangent">By direct substitution, we get: \(\frac{\sin 0}{0} = \frac{0}{0}\) <br>... this is in indeterminate form. SO we use L'Hopital's Rule!</h5>
-                    <h3 class="text-content">\(\lim_{x \to 0} \frac{\sin x}{x} = \lim_{x \to 0} \frac{\cos x}{1} = \cos 0 = 1\)</h3>
+                    <h5 class="tangent" style="padding-left: 15vw;">By direct substitution, we get: \(\frac{\sin 0}{0} = \frac{0}{0}\) <br>... this is in indeterminate form. SO we use L'Hopital's Rule!</h5>
+                    <h3 class="text-content" style="padding-left: 6.5vw;">Solution: \(\lim_{x \to 0} \frac{\sin x}{x} = \lim_{x \to 0} \frac{\cos x}{1} = \cos 0 = 1\)</h3>
                     <h3 class="text-content">Example: What does \(\lim_{x \to \frac{\pi}{2}} \frac{\sec x}{1 + \sec x}\) evaluate to?</h3>
-                    <h5 class="tangent">\(\lim_{x \to \frac{\pi}{2}} \frac{\sec x}{1 + \sec x} = \frac{\sec \frac{\pi}{2}}{1 + \sec \frac{\pi}{2}} = \frac{\frac{1}{0}}{1 + \frac{1}{0}} = \frac{\infty}{\infty} =\) indeterminate form! Therefore, L'Hopital's Rule.</h5>
-                    <h3 class="text-content">\(\lim_{x \to \frac{\pi}{2}} \frac{\sec x}{1 + \sec x} = \lim_{x \to \frac{\pi}{2}} \frac{\sec x \tan x}{\sec x \tan x} = \lim_{x \to \frac{\pi}{2}} 1 = 1\)</h3>
+                    <h5 class="tangent" style="padding-left: 15vw;">\(\lim_{x \to \frac{\pi}{2}} \frac{\sec x}{1 + \sec x} = \frac{\sec \frac{\pi}{2}}{1 + \sec \frac{\pi}{2}} = \frac{\frac{1}{0}}{1 + \frac{1}{0}} = \frac{\infty}{\infty} =\) indeterminate form! Therefore, L'Hopital's Rule.</h5>
+                    <h3 class="text-content" style="padding-left: 6.5vw;">Solution: \(\lim_{x \to \frac{\pi}{2}} \frac{\sec x}{1 + \sec x} = \lim_{x \to \frac{\pi}{2}} \frac{\sec x \tan x}{\sec x \tan x} = \lim_{x \to \frac{\pi}{2}} 1 = 1\)</h3>
                     <h2 class="sub-sub-heading">Try it out:</h2>
                     <h3 class="text-content">
                         <ol>

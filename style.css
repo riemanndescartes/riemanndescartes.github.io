@@ -125,7 +125,7 @@ body {
 }
 
 .content-dark {
-    color: #F1C1BD !important;
+    color: #f2ebd8 !important; /*old color: #F1C1BD*/
 }
 
 .child {
@@ -156,7 +156,8 @@ body {
     backdrop-filter: blur(5px);
     display:flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    z-index: 1;/*makes sure that header appears above all other content*/
 }
 
 /*.header-dark {
