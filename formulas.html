@@ -5,8 +5,10 @@
     <title>Riemann Descartes</title>
     <meta name="viewport" content="width=device-width" /><!--makes the width of the content the width of the screen-->
     <link rel="stylesheet" href="./style.css" type="text/css" /><!--style element (if needed) would go to the <head> as well-->
+    <link rel="stylesheet" href="./formula.css" type="text/css" />
     <link rel="icon" sizes="64x64" href="./assets/icon.png" type="image/png" /><!--that small image on the left side of ur browser name. DEBUG-->
     <script src="./main.js"></script><!--defer or async attribute-->
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   </head>
   <body>
     <div id="page-container">
@@ -23,9 +25,55 @@
       </header>
       <div id="content-wrap">
         <!-- all other page content -->
-        <section>
-          <h1>Future Home of Something Cool!</h1>
-        </section>
+        <div id="section">
+          <h1 class="heading">Trignometric Identities:</h1>
+          <!--<h3>\(\sin\theta = \frac{opp}{hyp}\)
+            <br>\(\cos\theta = \frac{adj}{hyp}\)
+          </h3>-->
+          <h2 class="sub-heading">Pythagorean identities: </h2>
+          <h3 class="definition">The Pythagorean identities come from the Pythagorean theorem and relate sine with cosine, tangent with secant, and cotangent with cosecant.</h3>
+          <h4 class="identity">\(\sin^2\theta + \cos^2\theta = 1\)
+            <br>\(\tan^2\theta + 1 = \sec^2\theta\)
+            <br>\(\cot^2\theta + 1 = \csc^2\theta\)
+          </h4>
+          <h2 class="sub-heading">Even-Odd Identities: </h2>
+          <h3 class="definition">The even-odd identities show which trigonometric function is an odd function or an even function.</h3>
+          <h4 class="identity">\(\sin(-\theta) = -\sin\theta\)
+            <br>\(\csc(-\theta) = -\csc\theta\)
+            <br>\(\cos(-\theta) = \cos\theta\)
+            <br>\(\sec(-\theta) = \sec\theta\)
+            <br>\(\tan(-\theta) = -\tan\theta\)
+            <br>\(\cot(-\theta) = -\cot\theta\)
+          </h4>
+          <h2 class="sub-heading">Cofunction Identities: </h2>
+          <h3 class="definition">The cofunction identities show the relationship between the sine and the cosine, tangent and cotangent, and secant and cosecant angle measures.</h3>
+          <h4 class="identity">\(\cos(90^{\circ} - \theta) = \sin\theta\)
+            <br>\(\sin(90^{\circ} - \theta) = \cos\theta\)
+            <br>\(\tan(90^{\circ} - \theta) = \cot\theta\)
+            <br>\(\cot(90^{\circ} - \theta) = \tan\theta\)
+            <br>\(\sec(90^{\circ} - \theta) = \csc\theta\)
+            <br>\(\csc(90^{\circ} - \theta) = \sec\theta\)
+          </h4>
+          <h2 class="sub-heading">Sum and Difference Identities: </h2>
+          <h4 class="identity">\(\sin(A + B) = \sin A \cos B + \cos A \sin B\)
+            <br>\(\sin(A - B) = \sin A \cos B - \cos A \sin B\)
+            <br>\(\cos(A + B) = \cos A \cos B - \sin A \sin B\)
+            <br>\(\cos(A - B) = \cos A \cos B + \sin A \sin B\)
+            <br>\(\tan(A + B) = \frac{\tan A + \tan B}{1 - \tan A \tan B}\)
+            <br>\(\tan(A - B) = \frac{\tan A - \tan B}{1 + \tan A \tan B}\)
+          </h4>
+          <h2 class="sub-heading">Double Angle Identities: </h2>
+          <h4 class="identity">\(\sin(2\theta) = 2 \sin \theta \cos \theta\)
+            <br>\(\cos(2\theta) = \cos^2\theta - \sin^2\theta\)
+            <br>\(\cos(2\theta) = 1 - 2\sin^2\theta\)
+            <br>\(\cos(2\theta) = 2\cos^2\theta - 1\)
+            <br>\(\tan(2\theta) = \frac{2\tan\theta}{1 - \tan^2\theta}\)
+          </h4>
+          <h2 class="sub-heading">Half-Angle Identities: </h2>
+          <h4 class="identity">\(\sin\frac{\theta}{2} = \pm\sqrt{\frac{1 - \cos\theta}{2}}\)
+            <br>\(\cos\frac{\theta}{2} = \pm\sqrt{\frac{1 + \cos\theta}{2}}\)
+          </h4>
+        </div>
       </div>
       <footer id="footer">
         <h1 class="end">&lt;/riemanndescartes&gt;</h1>
