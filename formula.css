@@ -3,14 +3,14 @@
     padding-bottom: 2vh;    
 }
 h1.heading {
-
+    font-size: 6vh;
 }
 h2.sub-heading {
-
+    font-size: 5vh;
 }
 h3.definition {
-
+    font-size: 4vh;
 }  
 h4.identity {
-
+    font-size: 3vh;
 }
