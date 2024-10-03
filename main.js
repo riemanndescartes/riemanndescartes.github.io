@@ -3,47 +3,60 @@
 }*/ /*A LATER PROBLEM*/
 
 function toggleDarkMode() {
-    toggleDarkModeGeneral();
-    toggleDarkModeHome();
+    // Call general toggling
+    toggleClass(["page-container", "footer"], "dark");
+
+    // Call home page specific toggling
+    toggleClass(["intromsg", "intromsgpartb", "plan"], "dark");
+
+    // Update dark/light mode icons
+    updateDarkModeIcon();
 }
 
 function toggleDarkModeContent() {
-    toggleDarkModeGeneral();
-    toggleDarkModeCalculus();
+    // Call general toggling
+    toggleClass(["page-container", "footer"], "dark");
+
+    // Call content-specific toggling
+    toggleClass(["content", "side-bar"], "dark");
+
+    // Update dark/light mode icons
+    updateDarkModeIcon();
 }
-function toggleDarkModeGeneral() {
-    var pagecontainer = document.getElementById("page-container");
-    pagecontainer.classList.toggle("page-container-dark");
 
-    /*var header = document.querySelector("header");
-    header.classList.toggle("header-dark");*/
+function toggleClass(elements, suffix) {
+    // Generic function to toggle class based on element ids and suffix
+    elements.forEach(function (elementId) {
+        const element = document.getElementById(elementId);
+        if (element) {
+            element.classList.toggle(`${elementId}-${suffix}`);
+        }
+    });
 
-    var alink = document.querySelectorAll("a");
-    alink.forEach(function(link) {
+    // Toggle links' class
+    var alinks = document.querySelectorAll("a");
+    alinks.forEach(function (link) {
         link.classList.toggle("dark-mode-a");
     });
 
+    // Toggle scrollbar style
     document.documentElement.classList.toggle('dark-scroll');
-
-    var footer = document.getElementById("footer");
-    footer.classList.toggle("footer-dark");
 }
 
-function toggleDarkModeHome() {
-    var intromsg = document.getElementById("intromsg");
-    intromsg.classList.toggle("intromsg-dark");
-    
-    var intromsgpartb = document.getElementById("intromsgpartb");
-    intromsgpartb.classList.toggle("intromsgpartb-dark");
+function updateDarkModeIcon() {
+    // Example of updating the icon in the <i> tag for dark mode/light mode
+    const darkModeToggle = document.getElementById("darkModeToggle");
 
-    var plan = document.getElementById("plan");
-    plan.classList.toggle("plan-dark");
+    if (darkModeToggle.classList.contains("fa-moon")) {
+        // Switch to sun icon for light mode
+        darkModeToggle.classList.remove("fa-moon");
+        darkModeToggle.classList.add("fa-sun");
+        darkModeToggle.style.color = "white"; // Set icon to white when it's the sun
+    } else {
+        // Switch to moon icon for dark mode
+        darkModeToggle.classList.remove("fa-sun");
+        darkModeToggle.classList.add("fa-moon");
+        darkModeToggle.style.color = ""; // Reset color to default (or you can specify another color for the moon)
+    }
 }
 
-function toggleDarkModeCalculus() {
-    var content = document.getElementById("content");
-    content.classList.toggle("content-dark");
-
-    var sidebar = document.getElementById("side-bar");
-    sidebar.classList.toggle("side-bar-dark");
-}

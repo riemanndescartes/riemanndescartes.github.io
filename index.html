@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./style.css" type="text/css" /><!--style element (if needed) would go to the <head> as well-->
     <link rel="icon" sizes="64x64" href="./assets/icon.png" type="image/png" /><!--that small image on the left side of ur browser name. DEBUG-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Shadows Into Light" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
     <script src="./main.js"></script><!--defer or async attribute-->
   </head>
   <body>
@@ -19,7 +20,7 @@
           <a href="./about.html" class="style">About</a>
         </div>
         <div class="button">
-          <button onclick="toggleDarkMode()">Toggle dark mode</button>
+          <i class="fas fa-moon" onclick="toggleDarkMode()" id="darkModeToggle"></i>
         </div>
       </header>
       <div id="content-wrap">

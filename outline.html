@@ -7,6 +7,7 @@
       <meta name="viewport" content="width=device-width" /><!--makes the width of the content the width of the screen-->
       <link rel="stylesheet" href="./style.css" type="text/css" /><!--style element (if needed) would go to the <head> as well-->
       <link rel="stylesheet" href="./limit.css" type="text/css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
       <link rel="icon" sizes="64x64" href="./assets/icon.png" type="image/png" /><!--that small image on the left side of ur browser name. DEBUG-->
       <script src="./main.js"></script><!--defer or async attribute-->
       <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -21,8 +22,8 @@
                <a href="./about.html" class="style">About</a>
             </div>
             <div class="button">
-               <button onclick="toggleDarkModeContent()">Toggle dark mode</button>
-            </div>
+               <i class="fas fa-moon" onclick="toggleDarkMode()" id="darkModeToggle"></i>
+           </div>
          </header>
          <div id="content-wrap" class="parent">
             <!-- all other page content -->
