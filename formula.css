@@ -1,16 +1,29 @@
 #section {
     font-family: "Poppins", sans-serif;
-    padding-bottom: 2vh;    
+    padding-bottom: 5vh;
+    padding-left: 2.5vw;  
+    padding-right: 2.5vw; 
+    color: #182C2B;  
+}
+.section-dark {
+    color: #f2ebd8 !important;
 }
 h1.heading {
     font-size: 6vh;
 }
 h2.sub-heading {
     font-size: 5vh;
+    padding-left: 3.5vw;
+
 }
 h3.definition {
     font-size: 4vh;
+    padding-left: 3.5vw;
 }  
 h4.identity {
-    font-size: 3vh;
+    font-size: 4vh;
+    text-align: center;
+}
+ol {
+    padding-left: 2vw;
 }
