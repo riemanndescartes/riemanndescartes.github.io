@@ -1,2 +1,2 @@
 # riemanndescartes.github.io
-what the cosine?!
+what the cosine?
